@@ -1,0 +1,190 @@
+---
+layout: default
+title: Technology
+permalink: /technology
+custom_css: 
+- technology/technology
+- technology/globals
+- technology/styleguide
+---
+
+
+<input type="hidden" id="anPageName" name="page" value="technology"/>
+<div class="container-center-horizontal">
+    <div class="technology screen">
+        <div class="team">
+            <div class="overlap-group">
+                <div class="debond-protocol-is-s body-text-big30pt">
+                    Debond Protocol is supported by accomplished partners, committed as we are about building a fairer
+                    and
+                    more stable DeFi.
+                </div>
+                <img
+                        class="team-title-h1"
+                        src="https://anima-uploads.s3.amazonaws.com/projects/622f8666d9eb67edfe7abb9c/releases/622ff5251186269d7d81c52e/img/team---title-h1@1x.png"
+                />
+            </div>
+        </div>
+        <div class="overlap-group8">
+            <div class="surname button-text18pt">WHITE PAPER</div>
+        </div>
+        <div class="material-surfaces-container h2heading60pt">
+            <h1 class="material-surfaces-1">
+                <span class="span h2heading60pt">1</span><span class="span-1 h2heading60pt">.Explore our </span
+            ><span class="span h2heading60pt">Ecosystem</span>
+            </h1>
+            <div class="material-surfaces">
+                <span class="span h2heading60pt">2</span><span class="span-1 h2heading60pt">.Explore our</span
+            ><span class="span h2heading60pt"> Ecosystem</span>
+            </div>
+            <div class="material-surfaces">
+                <span class="span h2heading60pt">3</span><span class="span-1 h2heading60pt">.Explore our</span
+            ><span class="span h2heading60pt"> Ecosystem</span>
+            </div>
+        </div>
+        <div class="no-programming-neede-container body-text-medium20pt">
+            <div class="no-programming-neede-1">
+                No programming needed. DEX and WALLET are your simple, one-stop service to design, issue, and trade
+                DEBONDs
+                and derivatives. Safer blockchain investing, fundraising, market trading are just a few clicks away.
+            </div>
+            <div class="no-programming-neede-2">
+                No programming needed. DEX and WALLET are your simple, one-stop service to design, issue, and trade
+                DEBONDs
+                and derivatives. Safer blockchain investing, fundraising, market trading are just a few clicks away.
+            </div>
+            <div class="no-programming-neede-3">
+                No programming needed. DEX and WALLET are your simple, one-stop service to design, issue, and trade
+                DEBONDs
+                and derivatives. Safer blockchain investing, fundraising, market trading are just a few clicks away.
+            </div>
+        </div>
+        <div class="overlap-group3">
+            <div class="frame-93">
+                <img
+                        class="vector"
+                        src="https://anima-uploads.s3.amazonaws.com/projects/622f8666d9eb67edfe7abb9c/releases/622ff5251186269d7d81c52e/img/vector-1@1x.svg"
+                />
+                <div class="overlap-group2">
+                    <img
+                            class="rectangle-29"
+                            src="https://anima-uploads.s3.amazonaws.com/projects/622f8666d9eb67edfe7abb9c/releases/622ff5251186269d7d81c52e/img/rectangle-29@1x.svg"
+                    />
+                    <img
+                            class="vector-1"
+                            src="https://anima-uploads.s3.amazonaws.com/projects/622f8666d9eb67edfe7abb9c/releases/622ff5251186269d7d81c52e/img/vector@1x.svg"
+                    />
+                    <div class="rectangle-30"></div>
+                    <div class="frame-94">
+                        <div class="eip-3475">EIP-3475</div>
+                        <div class="we-provide-de-bond-de inter-normal-white-20px">
+                            We provide DeBond DEX, wallet and other visualized bond creation tools that meet the
+                            ERC-3475
+                            requirements. Institutions and individuals can design their own bonds and use them to raise
+                            fund with
+                            our visualized programming port.
+                        </div>
+                        <div class="we-provide-de-bond-de inter-normal-white-20px">
+                            We provide DeBond DEX, wallet and other visualized bond creation tools that meet the
+                            ERC-3475
+                            requirements. Institutions and
+                        </div>
+                    </div>
+                    <div class="ellipse-5"></div>
+                    <div class="x1440main-ctanormal-state">
+                        <div class="use-app button-text18pt">DOWNLOAD DOCUMENTATION</div>
+                    </div>
+                </div>
+            </div>
+            <img
+                    class="ellipse-4"
+                    src="https://anima-uploads.s3.amazonaws.com/projects/622f8666d9eb67edfe7abb9c/releases/622ff5251186269d7d81c52e/img/ellipse-4@2x.svg"
+            />
+        </div>
+        <div class="bloc-i-top-banner">
+            <div class="debond-definition">
+                <div class="ellipse-5-1"></div>
+                <img
+                        class="line-3"
+                        src="https://anima-uploads.s3.amazonaws.com/projects/622f8666d9eb67edfe7abb9c/releases/622ff5251186269d7d81c52e/img/line-3@1x.svg"
+                />
+                <div class="ellipse-4-1"></div>
+            </div>
+            <div class="frame-91">
+                <div class="frame-88">
+                    <div class="overlap-group-1">
+                        <img
+                                class="material-surfaces-2"
+                                src="https://anima-uploads.s3.amazonaws.com/projects/622f8666d9eb67edfe7abb9c/releases/622ff5251186269d7d81c52e/img/material---surfaces-2@1x.png"
+                        />
+                    </div>
+                    <div class="providing-documentat body-text-medium20pt">
+                        Providing documentation, and code structure etc. Decentralized Financial markets are extremely
+                        volatile
+                        today. In TradFi, bonds play that role with their predictable yields.<br/>We have created the
+                        ERC-3475
+                        protocol, to make investments safer &amp; more stable in DeFi
+                    </div>
+                </div>
+                <div class="x1440main-ctanormal-state-1">
+                    <div class="use-app button-text18pt">DOWNLOAD DOCUMENTATION</div>
+                </div>
+            </div>
+        </div>
+        <div class="overlap-group7">
+            <img
+                    class="material-surfaces-3"
+                    src="https://anima-uploads.s3.amazonaws.com/projects/622f8666d9eb67edfe7abb9c/releases/622ff5251186269d7d81c52e/img/material---surfaces@1x.png"
+            />
+        </div>
+        <div class="overlap-group-container">
+            <div class="overlap-group4">
+                <div class="no-programming-neede body-text-medium20pt">
+                    No programming needed. DEX and WALLET are your simple, one-stop service to design, issue, and trade
+                    DEBONDs and derivatives. Safer blockchain investing, fundraising, market trading are just a few
+                    clicks
+                </div>
+                <img
+                        class="unnamed-1-1"
+                        src="https://anima-uploads.s3.amazonaws.com/projects/622f8666d9eb67edfe7abb9c/releases/622ff5251186269d7d81c52e/img/unnamed--1--11@2x.png"
+                />
+                <div class="material-surfaces-4 h3heading32pt">
+                    <span class="span-1 h3heading32pt"> 1.</span><span class="span h3heading32pt">Use case</span>
+                </div>
+            </div>
+            <div class="overlap-group5">
+                <img
+                        class="unnamed-1-1"
+                        src="https://anima-uploads.s3.amazonaws.com/projects/622f8666d9eb67edfe7abb9c/releases/622ff5251186269d7d81c52e/img/unnamed--1--11@2x.png"
+                />
+                <div class="no-programming-neede body-text-medium20pt">
+                    No programming needed. DEX and WALLET are your simple, one-stop service to design, issue, and trade
+                    DEBONDs and derivatives. Safer blockchain investing, fundraising, market trading are just a few
+                    clicks
+                </div>
+                <div class="material-surfaces-5 h3heading32pt">
+                    <span class="span-1 h3heading32pt"> 2.</span><span class="span h3heading32pt">Use case</span>
+                </div>
+            </div>
+            <div class="overlap-group6">
+                <img
+                        class="unnamed-1-1"
+                        src="https://anima-uploads.s3.amazonaws.com/projects/622f8666d9eb67edfe7abb9c/releases/622ff5251186269d7d81c52e/img/unnamed--1--11@2x.png"
+                />
+                <div class="no-programming-neede body-text-medium20pt">
+                    No programming needed. DEX and WALLET are your simple, one-stop service to design, issue, and trade
+                    DEBONDs and derivatives. Safer blockchain investing, fundraising, market trading are just a few
+                    clicks
+                </div>
+                <div class="material-surfaces-6 h3heading32pt">
+                    <span class="span-1 h3heading32pt"> 3.</span><span class="span h3heading32pt">Use case</span>
+                </div>
+            </div>
+        </div>
+        <div class="want-to-join-us-in-building-the-futur h2heading60pt">Want to Join us in building the futur ?</div>
+        <div class="x1440main-ctanormal-state-2">
+            <div class="use-app-1 button-text18pt">GIT HUB</div>
+        </div>
+    </div>
+</div>
+

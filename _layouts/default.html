@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/team/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    {% if page.custom_css %}
+    {% for stylesheet in page.custom_css %}
+    <link rel="stylesheet" href="/assets/css/{{ stylesheet }}.css">
+    {% endfor %}
+    {% endif %}
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Home</title>
+    <script>
+        function openMenu(){
+            const btn = document.getElementById('menu_content');
+            const display =window.getComputedStyle(btn).display;
+            if(display !== "flex"){
+                document.getElementById("burger").src = "/assets/images/exit.svg";
+                document.getElementById("menu_content").style.display = "flex";
+                document.body.style.overflow = "hidden";
+            }else{
+                document.getElementById("burger").src = "/assets/images/burger.svg";
+                document.getElementById("menu_content").style.display = "none";
+                document.body.style.overflowY = "scroll";
+            }
+        }
+    </script>
+</head>
+
+<body>
+{% include header.html %}
+{% include headerBurger.html %}
+{{content}}
+<div class="footer">
+    <div class="footer-box">
+        <div class="footer-logo">
+            <img src="/assets/images/logo.svg"/>
+            <span class="span-logo">— Decentralised Bonds</span>
+            <span class="logo-extra">
+                    © Debond Protocol 2021,
+                    All Rights Reserved
+                </span>
+        </div>
+        <div class="footer-links-container">
+            <div class="footer-links-box">
+                <a  href="#" class="footer-links-title">Technology</a>
+                <a  href="#" class="footer-links-title">About</a>
+            </div>
+            <div class="footer-links-box">
+                <a href="/team" class="footer-links-title">Team</a>
+                <a href="/community" class="footer-links-title">Community</a>
+            </div>
+        </div>
+        <div class="footer-recourse-box">
+            <span class="footer-links-title-items">Keep in touch</span>
+            <div class="footer-recourse-img-box">
+                <a href="https://twitter.com/DebondProtocol" target="_blank"> <img src="/assets/images/twitter-logo.svg"/></a>
+                <a href="https://github.com/DeBond-Protocol/" target="_blank"><img src="/assets/images/git-hub-logo.svg"/></a>
+                <a href="https://www.reddit.com/user/DebondProtocol" target="_blank"><img src="/assets/images/d-logo.svg"/></a>
+                <a href="https://discord.gg/Bhq2YEqY" target="_blank"><img src="/assets/images/discord.svg"/></a>
+                <a href="https://debond-protocol.medium.com/" target="_blank"><img src="/assets/images/some-1.svg"/></a>
+                <a href="#"><img src="/assets/images/youtube.svg" target="_blank"/></a>
+                <a href="https://t.me/debond_protocol" target="_blank"><img src="/assets/images/telegram.svg"/></a>
+            </div>
+        </div>
+        <span class="logo-extra-mobile">
+                © Debond Protocol 2021,<br/>
+                All Rights Reserved
+            </span>
+    </div>
+</div>
+</body>
+</html>
