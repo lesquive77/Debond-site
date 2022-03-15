@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>team</title>
+<script>
+    function getAll(){
+        const btn = document.getElementById('hide_1');
+        const display =window.getComputedStyle(btn).display;
+        if(display !== "block"){
+            document.getElementById("hide_1").style.display = "block";
+            document.getElementById("hide_2").style.display = "block";
+            document.getElementById("hide_3").style.display = "block";
+            document.getElementById("hide_4").style.display = "block";
+            document.getElementById("showAll").innerHTML="SEE LESS"; 
+        }else{
+            document.getElementById("hide_1").style.display = "none";
+            document.getElementById("hide_2").style.display = "none";
+            document.getElementById("hide_3").style.display = "none";
+            document.getElementById("hide_4").style.display = "none";
+            document.getElementById("showAll").innerHTML="SEE MORE"; 
+        }
+    }
+
+    function openMenu(){
+        const btn = document.getElementById('menu_content');
+        const display =window.getComputedStyle(btn).display;
+        if(display !== "flex"){
+            document.getElementById("burger").src = "../img/exit.svg";
+            document.getElementById("menu_content").style.display = "flex";
+            document.body.style.overflow = "hidden";
+        }else{
+            document.getElementById("burger").src = "../img/burger.svg";
+            document.getElementById("menu_content").style.display = "none";
+            document.body.style.overflowY = "scroll";
+        }
+    }
+</script>
+</head>
+<body>
+    <div class="menu-home">
+        <div class="menu-container">
+            <a href="/"><img src="../img/logo.svg"/></a>
+            <div class="menu-links-container">
+                <a href="#">Technology</a>
+                <a href="/team">Team</a>
+                <a href="#">About</a>
+                <a href="#">Community</a>
+            </div>
+            <div class="menu-burger">
+                <img src="../img/burger.svg" id="burger" onclick="openMenu()"/>
+            </div>
+        </div>
+    </div>
+    <div class="menu-burger-content" id="menu_content">
+        <a href="#">Technology</a>
+        <a href="/team">Team</a>
+        <a href="#">About</a>
+        <a href="#">Community</a>
+    </div>
+    <div class="team-page">
+        <div class="team-page-title">
+            <p>Team</p>
+            <span>
+                12 dedicated experts,<br/>
+                8 nationalities, 6 engineers,<br/>
+                5 PhDs and PhD candidates.<br/>
+                All working together to build the<br/>
+                first decentralised bond platform<br/>
+                and take DeFi to the next level.
+            </span>
+        </div>
+        <div class="out-advisors-box">
+            <p class="title">Our advisors</p>
+            <div class="box">
+                <div class="item item-advisors">
+                    <img src="../img/people/1.svg"/>
+                    <p>Stephane Marrache</p>
+                    <span>VP BUSINESS & CORPORATE DEVELOPMENT AT COINHOUSE</span>
+                </div>
+                <div class="item item-advisors">
+                    <img src="../img/people/2.svg"/>
+                    <p>Erfan Isaac</p>
+                    <span>CO-FOUNDER & COO ADVISOR & ANGEL INVESTOR AT HOTBIT</span>
+                </div>
+                <div class="item item-advisors">
+                    <img src="../img/people/3.svg"/>
+                    <p>Jason Hung</p>
+                    <span>CO-FOUNDER AT ICA</span>
+                </div>
+                <div class="item item-advisors">
+                    <img src="../img/people/4.svg"/>
+                    <p>Abdullah Jadoon</p>
+                    <span>SOCIAL MEDIA ADVISOR FOUNDER AT JADOON GROUP & HEAD OF SOCIAL MEDIA AT HYPE PARTNERS</span>
+                </div>
+                <div class="item item-advisors">
+                    <img src="../img/people/5.svg"/>
+                    <p>Sita Chopra</p>
+                    <span>SENIOR CLIENT RELATIONSHIP MANAGER  AT CVVC</span>
+                </div>
+                <div class="item item-advisors">
+                    <img src="../img/people/6.svg"/>
+                    <p>Abdelmounaim Derraz</p>
+                    <span>FOUNDER AT NEBULAE</span>
+                </div>
+                <div class="item item-advisors" id="hide_1">
+                    <img src="../img/people/7.svg"/>
+                    <p>Ivan Miskovic</p>
+                    <span>VC AT TGE Capital</span>
+                </div>
+                <div class="item item-advisors" id="hide_2">
+                    <img src="../img/people/12.svg"/>
+                    <p>Karl-Martin Ahrend</p>
+                    <span>PRIVATE EQUITY AT THE BLACKSTONE GROUP</span>
+                </div>
+                <div class="item item-advisors" id="hide_3">
+                    <img src="../img/people/9.svg"/>
+                    <p>Alexis Sheikh</p>
+                    <span>PARTNER AT SUPERCAP DIGITAL</span>
+                </div>
+                <div class="item item-advisors" id="hide_4">
+                    <img src="../img/people/10.svg"/>
+                    <p>Rasheed Saleuddin </p>
+                    <span>ADVISOR AT THE BORING DAO & RESEARCH AFFILIATE AT UNIVERSITY OF CAMBRIDGE </span>
+                </div>
+                <div class="see-more-box">
+                    <button onclick="getAll()" id="showAll">SEE MORE</button>
+                </div>
+            </div>
+        </div>
+        <div class="out-advisors-box">
+            <p class="title">Our Team</p>
+            <div class="box">
+                <div class="item item-team">
+                    <img src="../img/people/1_1.svg"/>
+                    <p>Yu Liu</p>
+                    <span>FOUNDER & CEO<br/> Founder & Developer At SWAP HELPER Developer<br/> of Grap.Finance</span>
+                </div>
+                <div class="item item-team">
+                    <img src="../img/people/1_2.svg"/>
+                    <p>Sang-Bo W, PhD</p>
+                    <span>CO-FOUNDER Chief Algorithms Officer Math & Economic Model PhD. Financial Mathematics, École polytechnique de Paris</span>
+                </div>
+                <div class="item item-team">
+                    <img src="../img/people/1_3.svg"/>
+                    <p>Waroon D, PhD</p>
+                    <span>CO-FOUNDER & CTO<br/> Head of security At UNIRIS Doctor of<br/> Philosophy, Design of Blockchain based trust management system</span>
+                </div>
+                <div class="item item-team">
+                    <img src="../img/people/1_4.svg"/>
+                    <p>Allan M</p>
+                    <span>PARTNERSHIP MANAGER<br/> Growth Partnership<br/> VC Analyst<br/> ESSEC Business School</span>
+                </div>
+                <div class="item item-team">
+                    <img src="../img/people/1_5.svg"/>
+                    <p>Samuel O, PhD</p>
+                    <span>BLOCKCHAIN DEVELOPER<br/> Blockchain Developer, QA<br/> PhD. Candidate Energy & Entropy,<br/> Sorbonne University</span>
+                </div>
+                <div class="item item-team">
+                    <img src="../img/people/1_6.svg"/>
+                    <p>Oleksander Korliuk, PhD</p>
+                    <span>
+                        INFRASTRUCTURE AND ARCHITECT ADVISOR
+                        AWS PARTNER, AWS Certified Solution Architect
+                    </span>
+                </div>
+                <div class="item item-team">
+                    <img src="../img/people/1_7.svg"/>
+                    <p>Toufic B</p>
+                    <span>BLOCKCHAIN DEVELOPER Blockchain Developer, QUANT Data Scientist, THALES Risk ALM Model Reviewer, BNP PARIBAS</span>
+                </div>
+                <div class="item item-team">
+                    <img src="../img/people/1_8.svg"/>
+                    <p>Dhruv M</p>
+                    <span>INFRASTRUCTURE AND ARCHITECT ADVISOR
+                        AWS PARTNER, AWS CERTIFIED SOLUTION ARCHITECT
+                    </span>
+                </div>
+                <div class="item item-team">
+                    <img src="../img/people/1_9.svg"/>
+                    <p>Cedric N</p>
+                    <span>
+                        SENIOR BLOCKCHAIN CONSULTANT CTO AT Culture Shock
+                        Software development engineer AT CANAL+
+                    </span>
+                </div>
+                <div class="item item-team">
+                    <img src="../img/people/1_10.svg"/>
+                    <p>Máté Mátyás</p>
+                    <span>HEAD OF COMMUNICATION International Tech Policy Analyst AT TREMEAU</span>
+                </div>
+                <div class="item item-team">
+                    <img src="../img/people/1_11.svg"/>
+                    <p>Meriem Marsli</p>
+                    <span>UX/UI DESIGNER UX/UI Designer, MOËT HENNESSY (LVMH) Art Director, ADFAB</span>
+                </div>
+            </div>
+        </div>
+        <div class="join-us-box">
+            <div class="title-part">
+                <p>Want to Join us in building the future ?</p>
+                <button>JOIN US</button>
+            </div>
+            <img src="../img/join-us.svg"/>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-box">
+            <div class="footer-logo">
+                <img src="../img/logo.svg"/>
+                <span class="span-logo">— Decentralised Bonds</span>
+                <span class="logo-extra">
+                    © Debond Protocol 2021, 
+                    All Rights Reserved
+                </span>
+            </div>
+            <div class="footer-links-container">
+                <div class="footer-links-box">
+                    <a  href="#" class="footer-links-title">Technology</a>
+                    <a  href="#" class="footer-links-title">About</a>
+                </div>
+                <div class="footer-links-box">
+                    <a href="/team" class="footer-links-title">Team</a>
+                    <a href="#" class="footer-links-title">Community</a>
+                </div>
+            </div>
+            <div class="footer-recourse-box">
+                <span class="footer-links-title-items">Keep in touch</span>
+                <div class="footer-recourse-img-box">
+                    <a href="https://twitter.com/DebondProtocol" target="_blank"> <img src="../img/twitter-logo.svg"/></a>
+                    <a href="https://github.com/DeBond-Protocol/" target="_blank"><img src="../img/git-hub-logo.svg"/></a>
+                    <a href="https://www.reddit.com/user/DebondProtocol" target="_blank"><img src="../img/d-logo.svg"/></a>
+                    <a href="https://discord.gg/Bhq2YEqY" target="_blank"><img src="../img/discord.svg"/></a>
+                    <a href="https://debond-protocol.medium.com/" target="_blank"><img src="../img/some-1.svg"/></a>
+                    <a href="#"><img src="../img/youtube.svg" target="_blank"/></a>
+                    <a href="https://t.me/debond_protocol" target="_blank"><img src="../img/telegram.svg"/></a>
+                </div>
+            </div>
+            <div>
+                <span class="logo-extra-mobile">
+                    © Debond Protocol 2021,<br/>
+                    All Rights Reserved
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
