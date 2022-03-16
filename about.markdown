@@ -17,10 +17,7 @@ custom_css:
                     and
                     more stable DeFi.
                 </div>
-                <img
-                        class="team-title-h1"
-                        src="https://anima-uploads.s3.amazonaws.com/projects/622f8666d9eb67edfe7abb9c/releases/622ff151e75d95b4560927c1/img/team---title-h1@1x.png"
-                />
+                <div class="team-title-h1">About</div>
             </div>
             <div class="rectangle-29"></div>
         </div>

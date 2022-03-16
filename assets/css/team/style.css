@@ -12,38 +12,6 @@
     display: none;
 }
 
-#menu_content{
-    display: none;
-}
-/* html, body {margin: 0; height: 100%; overflow: hidden} */
-
-.menu-burger-content{
-    width: 100%;
-    height: 100vh;
-    
-    z-index: 1;
-    background: #121212;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
-.menu-burger-content a{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 27px;
-    text-align: center;
-    letter-spacing: -0.41759px;
-    color: #FFFFFF;
-    margin-top: 51px;
-    cursor: pointer;
-}
-
 .team-page{
     max-width: 100%;
     display: flex;
@@ -235,7 +203,7 @@
         padding-top: 150px;
     }
 
-    
+
 
 
     .out-advisors-box .box{
@@ -256,7 +224,7 @@
         height: 280px;
         /* margin-left: 24px; */
     }
-    
+
     .out-advisors-box .item-team{
         width: 150px;
         height: 340px;
@@ -266,7 +234,7 @@
     #hide_1{
         margin-top: 0px;
     }
-    
+
     #hide_2{
         margin-top: 0px;
 
@@ -301,7 +269,7 @@
         height: 280px;
         /* margin-left: 24px; */
     }
-    
+
     .out-advisors-box .item-team{
         width: 150px;
         height: 320px;
@@ -311,7 +279,7 @@
     #hide_1{
         margin-top: 0px;
     }
-    
+
     #hide_2{
         margin-top: 0px;
 
@@ -329,7 +297,7 @@
 
     .team-page-title{
         padding-bottom: 100px;
-        
+
     }
 
     .out-advisors-box{
@@ -350,7 +318,7 @@
         height: 355px;
         /* margin-left: 24px; */
     }
-    
+
     .out-advisors-box .item-team{
         width: 208px;
         height: 425px;
@@ -360,7 +328,7 @@
     #hide_1{
         margin-top: 0px;
     }
-    
+
     #hide_2{
         margin-top: 0px;
 
@@ -402,7 +370,7 @@
         flex-direction: column;
         align-items: center;
         padding-bottom: 200px;
-        
+
     }
     .team-page-title p{
         font-weight: 800;
@@ -434,7 +402,7 @@
         height: 355px;
         margin-left: 24px;
     }
-    
+
     .out-advisors-box .item-team{
         width: 208px;
         height: 425px;
@@ -444,7 +412,7 @@
     #hide_1{
         margin-top: 20px;
     }
-    
+
     #hide_2{
         margin-top: 20px;
 
@@ -452,7 +420,7 @@
     #hide_3{
         margin-top: 20px;
     }
-    
+
     .out-advisors-box .item p{
         font-size: 16px;
         line-height: 20px;
@@ -547,7 +515,7 @@
         height: 625px;
         margin-left: 26px;
     }
-    
+
     .out-advisors-box .item-team{
         width: 380px;
         height: 725px;
@@ -557,7 +525,7 @@
     #hide_1{
         margin-top: 40px;
     }
-    
+
     #hide_2{
         margin-top: 40px;
 

@@ -2,6 +2,10 @@
 layout: default
 title: Team
 permalink: /team
+custom_css:
+- team/style
+- technology/globals
+- technology/styleguide
 ---
 
 <div class="team-page">

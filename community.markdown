@@ -15,10 +15,8 @@ custom_css:
               Debond Protocol is supported by accomplished partners, committed as we are about building a fairer and
               more stable DeFi.
             </div>
-            <img
-              class="team-title-h1"
-              src="https://anima-uploads.s3.amazonaws.com/projects/622f8666d9eb67edfe7abb9c/releases/622fc513d9eb67edfe7abd0d/img/team---title-h1-12@1x.png"
-            />
+            <div class="team-title-h1">Community
+              </div>
           </div>
         </div>
         <div class="overlap-group8">

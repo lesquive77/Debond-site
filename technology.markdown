@@ -19,10 +19,9 @@ custom_css:
                     and
                     more stable DeFi.
                 </div>
-                <img
-                        class="team-title-h1"
-                        src="https://anima-uploads.s3.amazonaws.com/projects/622f8666d9eb67edfe7abb9c/releases/622ff5251186269d7d81c52e/img/team---title-h1@1x.png"
-                />
+                <div class="team-title-h1">
+                    Technology   
+                </div>
             </div>
         </div>
         <div class="overlap-group8">

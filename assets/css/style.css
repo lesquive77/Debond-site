@@ -16,6 +16,40 @@ a{
     outline: none;
     text-decoration: none;
 }
+
+
+#menu_content{
+    display: none;
+}
+/* html, body {margin: 0; height: 100%; overflow: hidden} */
+
+.menu-burger-content{
+    width: 100%;
+    height: 100vh;
+
+    z-index: 1;
+    background: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.menu-burger-content a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.41759px;
+    color: #FFFFFF;
+    margin-top: 51px;
+    cursor: pointer;
+}
+
 /* @media only screen and (min-width: 1010px) and (max-width: 1199px) {
 
 /* @media only screen and (min-width: 1200px) { */

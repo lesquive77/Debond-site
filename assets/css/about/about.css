@@ -120,11 +120,21 @@
 }
 
 .desktop-1440-about .team-title-h1 {
-  height: 124px;
-  left: 300px;
   position: absolute;
-  top: 0;
-  width: 393px;
+  left: 19.31%;
+  right: 19.24%;
+  /*top: 1.67%;*/
+  bottom: 43.33%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 134.09%;
+  /* or 161px */
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  text-shadow: 0px 17.8712px 17.8712px rgba(0, 0, 0, 0.25);
 }
 
 .desktop-1440-about .rectangle-29 {
