@@ -4,10 +4,28 @@ title: Team
 permalink: /team
 custom_css:
 - team/style
-- technology/globals
-- technology/styleguide
+- team/globals
 ---
-
+<script>
+    function getAll() {
+        const btn = document.getElementById('hide_1');
+        const display = window.getComputedStyle(btn).display;
+        if (display !== "block") {
+            document.getElementById("hide_1").style.display = "block";
+            document.getElementById("hide_2").style.display = "block";
+            document.getElementById("hide_3").style.display = "block";
+            document.getElementById("hide_4").style.display = "block";
+            document.getElementById("hide_5").style.display = "block";
+            document.getElementById("showAll").innerHTML = "SEE LESS";
+        } else {
+            document.getElementById("hide_1").style.display = "none";
+            document.getElementById("hide_2").style.display = "none";
+            document.getElementById("hide_3").style.display = "none";
+            document.getElementById("hide_4").style.display = "none";
+            document.getElementById("hide_5").style.display = "none";
+            document.getElementById("showAll").innerHTML = "SEE MORE";
+        }
+    }</script>
 <div class="team-page">
     <div class="team-page-title">
         <p>Team</p>
@@ -24,65 +42,74 @@ custom_css:
         <p class="title">Our Team</p>
         <div class="box">
             <div class="item item-team">
-                <img src="/assets/images/people/1_1.svg"/>
+                <img src="/assets/images/people/team/0.png"/>
                 <p>Yu Liu</p>
                 <span>FOUNDER & CEO<br/> Founder & Developer At SWAP HELPER Developer<br/> of Grap.Finance</span>
             </div>
             <div class="item item-team">
-                <img src="/assets/images/people/1_2.svg"/>
+                <img src="/assets/images/people/team/7.png"/>
                 <p>Sang-Bo W, PhD</p>
                 <span>CO-FOUNDER Chief Algorithms Officer Math & Economic Model PhD. Financial Mathematics, École polytechnique de Paris</span>
             </div>
             <div class="item item-team">
-                <img src="/assets/images/people/1_3.svg"/>
+                <img src="/assets/images/people/team/6.png"/>
                 <p>Waroon D, PhD</p>
                 <span>CO-FOUNDER & CTO<br/> Head of security At UNIRIS Doctor of<br/> Philosophy, Design of Blockchain based trust management system</span>
             </div>
             <div class="item item-team">
-                <img src="/assets/images/people/1_4.svg"/>
+                <img src="/assets/images/people/team/3.png">
                 <p>Allan M</p>
                 <span>PARTNERSHIP MANAGER<br/> Growth Partnership<br/> VC Analyst<br/> ESSEC Business School</span>
             </div>
             <div class="item item-team">
-                <img src="/assets/images/people/1_5.svg"/>
+                <img src="/assets/images/people/team/1.png"/>
                 <p>Samuel O, PhD</p>
                 <span>BLOCKCHAIN DEVELOPER<br/> Blockchain Developer, QA<br/> PhD. Candidate Energy & Entropy,<br/> Sorbonne University</span>
             </div>
             <div class="item item-team">
-                <img src="/assets/images/people/1_6.svg"/>
-                <p>Oleksander Korliuk, PhD</p>
+                <img src="/assets/images/people/team/8.png"/>
+                <p>Cedric N</p>
                 <span>
-                        INFRASTRUCTURE AND ARCHITECT ADVISOR
-                        AWS PARTNER, AWS Certified Solution Architect
+                    SENIOR BLOCKCHAIN CONSULTANT CTO AT Culture Shock
+                    Software development engineer  AT CANAL+ 
                     </span>
             </div>
             <div class="item item-team">
-                <img src="/assets/images/people/1_7.svg"/>
+                <img src="/assets/images/people/team/4.png"/>
                 <p>Toufic B</p>
                 <span>BLOCKCHAIN DEVELOPER Blockchain Developer, QUANT Data Scientist, THALES Risk ALM Model Reviewer, BNP PARIBAS</span>
             </div>
             <div class="item item-team">
-                <img src="/assets/images/people/1_8.svg"/>
+                <img src="/assets/images/people/team/2.png"/>
                 <p>Dhruv M</p>
                 <span>INFRASTRUCTURE AND ARCHITECT ADVISOR
                         AWS PARTNER, AWS CERTIFIED SOLUTION ARCHITECT
                     </span>
             </div>
             <div class="item item-team">
-                <img src="/assets/images/people/1_9.svg"/>
-                <p>Cedric N</p>
+                <img src="/assets/images/people/team/5.png"/>
+                <p>Olusegun O, PhD Candidate </p>
                 <span>
-                        SENIOR BLOCKCHAIN CONSULTANT CTO AT Culture Shock
-                        Software development engineer AT CANAL+
+                    CONTENT WRITER
+                    Social Media/Content Marketing PhD candidate Communication at Universitat Pompeu Fabra
                     </span>
             </div>
             <div class="item item-team">
-                <img src="/assets/images/people/1_10.svg"/>
+                <img src="/assets/images/people/team/10.png"/>
+                <p>Guillaume Q.</p>
+                <span>
+                    BLOCKCHAIN DEVELOPER
+                    Software Developer at Thalès
+                    Machine learning Engineer École Polytechnique
+                    </span>
+            </div>
+            <div class="item item-team">
+                <img src="/assets/images/people/team/9.png"/>
                 <p>Máté Mátyás</p>
                 <span>HEAD OF COMMUNICATION International Tech Policy Analyst AT TREMEAU</span>
             </div>
             <div class="item item-team">
-                <img src="/assets/images/people/1_11.svg"/>
+                <img src="/assets/images/people/team/11.png"/>
                 <p>Meriem Marsli</p>
                 <span>UX/UI DESIGNER UX/UI Designer, MOËT HENNESSY (LVMH) Art Director, ADFAB</span>
             </div>
@@ -92,54 +119,60 @@ custom_css:
         <p class="title">Our advisors</p>
         <div class="box">
             <div class="item item-advisors">
-                <img src="/assets/images/people/1.svg"/>
+                <img src="/assets/images/people/advisors/1.png"/>
                 <p>Stephane Marrache</p>
                 <span>VP BUSINESS & CORPORATE DEVELOPMENT AT COINHOUSE</span>
             </div>
             <div class="item item-advisors">
-                <img src="/assets/images/people/2.svg"/>
+                <img src="/assets/images/people/advisors/2.png"/>
                 <p>Erfan Isaac</p>
                 <span>CO-FOUNDER & COO ADVISOR & ANGEL INVESTOR AT HOTBIT</span>
             </div>
             <div class="item item-advisors">
-                <img src="/assets/images/people/3.svg"/>
+                <img src="/assets/images/people/advisors/3.png"/>
                 <p>Jason Hung</p>
                 <span>CO-FOUNDER AT ICA</span>
             </div>
             <div class="item item-advisors">
-                <img src="/assets/images/people/4.svg"/>
+                <img src="/assets/images/people/advisors/4.png"/>
                 <p>Abdullah Jadoon</p>
                 <span>SOCIAL MEDIA ADVISOR FOUNDER AT JADOON GROUP & HEAD OF SOCIAL MEDIA AT HYPE PARTNERS</span>
             </div>
             <div class="item item-advisors">
-                <img src="/assets/images/people/5.svg"/>
+                <img src="/assets/images/people/advisors/5.png"/>
                 <p>Sita Chopra</p>
                 <span>SENIOR CLIENT RELATIONSHIP MANAGER  AT CVVC</span>
             </div>
             <div class="item item-advisors">
-                <img src="/assets/images/people/6.svg"/>
+                <img src="/assets/images/people/advisors/6.png"/>
                 <p>Abdelmounaim Derraz</p>
                 <span>FOUNDER AT NEBULAE</span>
             </div>
             <div class="item item-advisors" id="hide_1">
-                <img src="/assets/images/people/7.svg"/>
+                <img src="/assets/images/people/advisors/7.png"/>
                 <p>Ivan Miskovic</p>
                 <span>VC AT TGE Capital</span>
             </div>
             <div class="item item-advisors" id="hide_2">
-                <img src="/assets/images/people/12.svg"/>
+                <img src="/assets/images/people/advisors/12.png"/>
                 <p>Karl-Martin Ahrend</p>
                 <span>PRIVATE EQUITY AT THE BLACKSTONE GROUP</span>
             </div>
             <div class="item item-advisors" id="hide_3">
-                <img src="/assets/images/people/9.svg"/>
+                <img src="/assets/images/people/advisors/9.png"/>
                 <p>Alexis Sheikh</p>
                 <span>PARTNER AT SUPERCAP DIGITAL</span>
             </div>
             <div class="item item-advisors" id="hide_4">
-                <img src="/assets/images/people/10.svg"/>
+                <img src="/assets/images/people/advisors/11.png"/>
                 <p>Rasheed Saleuddin </p>
                 <span>ADVISOR AT THE BORING DAO & RESEARCH AFFILIATE AT UNIVERSITY OF CAMBRIDGE </span>
+            </div>
+            <div class="item item-advisors" id="hide_5">
+                <img src="/assets/images/people/advisors/13.png"/>
+                <p>Oleksander Korliuk, PhD </p>
+                <span>INFRASTRUCTURE AND ARCHITECT ADVISOR
+                    AWS PARTNER, AWS Certified  Solution Architect </span>
             </div>
             <div class="see-more-box">
                 <button onclick="getAll()" id="showAll">SEE MORE</button>

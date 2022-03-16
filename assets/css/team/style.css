@@ -12,6 +12,9 @@
     display: none;
 }
 
+#hide_5{
+    display: none;
+}
 .team-page{
     max-width: 100%;
     display: flex;
