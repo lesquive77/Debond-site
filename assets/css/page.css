@@ -1,0 +1,132 @@
+.page {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #121212;
+}
+
+.page-title {
+    width: 100%;
+    text-align: center;
+}
+
+.page-title p {
+    display: block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 134%;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 17.8712px 17.8712px rgba(0, 0, 0, 0.25);
+}
+
+.page-title span {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+    display: block;
+}
+
+@media only screen and (max-width: 375px) {
+    .page {
+        max-width: 375px;
+        padding: 112px 20px 75px 20px;
+    }
+
+    .out-advisors-box {
+        padding-top: 150px;
+    }
+
+}
+
+@media only screen and (min-width: 376px) and (max-width: 550px) {
+    .page {
+        max-width: 560px;
+        padding: 112px 20px 75px 20px;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 725px) {
+    .page {
+        max-width: 660px;
+        padding: 112px 30px 75px 30px;
+    }
+
+    .page-title {
+        padding-bottom: 100px;
+
+    }
+}
+
+
+@media only screen and (min-width: 725px) and (max-width: 1340px) {
+    .page {
+        max-width: 100%;
+        padding: 50px 48px 73px 48px;
+    }
+
+    .page-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 200px;
+
+    }
+
+    .page-title p {
+        font-weight: 800;
+        font-size: 80px;
+        line-height: 134%;
+    }
+
+    .page-title span {
+        display: block;
+        width: 559px;
+    }
+
+    .page-title span br {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1340px) {
+    .page {
+        max-width: 1440px;
+        width: 100%;
+        padding: 119px 121px 58px 117px;
+    }
+
+    .page-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 250px;
+    }
+
+    .page-title p {
+        font-weight: 800;
+        font-size: 120px;
+        line-height: 134.09%;
+    }
+
+    .page-title span {
+        display: block;
+        width: 1015px;
+        font-size: 30px;
+        line-height: 134%;
+    }
+
+    .page-title span br {
+        display: none;
+    }
+}
+

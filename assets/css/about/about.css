@@ -1,836 +1,976 @@
+.investors-grid, .press-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.investors-title, .press-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    /* or 100% */
+    text-align: center;
+
+    /* Debond White */
+    color: #FFFFFF;
+}
+
+.investors-item{
+    width: 381px;
+    height: 438px;
+    margin:20px;
+}
+
+.press-item{
+    height:216px;
+    width: 385px;
+    margin:20px;
+}
+
+.investors-item img{
+    max-height: 140px;
+}
+
+.investors-item img{
+    max-height: 140px;
+}
+.press-item img{
+    max-height: 178px;
+    max-width: 304px;
+}
+.investors-header, .press-header {
+    background: #FFFFFF;
+    width: 100%;
+    height: 216.25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.investors-text-title{
+    margin-top:29.32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.3222px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 40px;
+}
+
+.investors-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.3264px;
+    line-height: 146%;
+    /* or 27px */
+    text-align: center;
+    height: 122.79px;
+    /* Debond White */
+    color: #FFFFFF;
+    box-sizing: content-box;
+}
+
+.press, .investors{
+    margin-top:100px;
+}
+
+
+
+
 /* screen - desktop-1440-about */
 
+.about-title {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    top: 240px;
+
+}
+
+.about-title-header {
+    position: absolute;
+    left: 19.31%;
+    right: 19.24%;
+    top: 1.67%;
+    bottom: 43.33%;
+
+    /* 🖥H1•Heading•120pt */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 134.09%;
+    /* or 161px */
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    /* Debond White */
+    color: #FFFFFF;
+
+    text-shadow: 0px 17.8712px 17.8712px rgba(0, 0, 0, 0.25);
+}
+
+.about-title-text {
+    position: absolute;
+    width: 992px;
+    height: 84px;
+    left: 224px;
+    top: 149px;
+
+    /* 🖥Body text Big•30pt */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 134%;
+    /* or 40px */
+    text-align: center;
+
+    /* Debond White */
+    color: #FFFFFF;
+}
+
 .desktop-1440-about {
-  align-items: center;
-  background-color: var(--debond-black);
-  display: flex;
-  flex-direction: column;
-  height: 4201px;
-  padding: 7px 0;
-  width: 1440px;
+    align-items: center;
+    background-color: var(--debond-black);
+    display: flex;
+    flex-direction: column;
+    height: 4201px;
+    padding: 7px 0;
+    width: 1440px;
 }
 
 .desktop-1440-about .header-desktop {
-  align-items: center;
-  background-color: var(--debond-black);
-  display: flex;
-  height: 120px;
-  justify-content: flex-end;
-  min-width: 1440px;
-  padding: 22px 111px;
+    align-items: center;
+    background-color: var(--debond-black);
+    display: flex;
+    height: 120px;
+    justify-content: flex-end;
+    min-width: 1440px;
+    padding: 22px 111px;
 }
 
 .desktop-1440-about .logo-debond-header {
-  align-items: flex-start;
-  align-self: flex-start;
-  display: flex;
-  height: 66px;
-  min-width: 234px;
-  padding: 4.3px 5.1px;
+    align-items: flex-start;
+    align-self: flex-start;
+    display: flex;
+    height: 66px;
+    min-width: 234px;
+    padding: 4.3px 5.1px;
 }
 
 .desktop-1440-about .logo-de-bond-tm {
-  height: 55px;
-  width: 223px;
+    height: 55px;
+    width: 223px;
 }
 
 .desktop-1440-about .overlap-group1-1 {
-  height: 27px;
-  margin-left: 345px;
-  margin-top: 5.13px;
-  position: relative;
-  width: 326px;
+    height: 27px;
+    margin-left: 345px;
+    margin-top: 5.13px;
+    position: relative;
+    width: 326px;
 }
 
 .desktop-1440-about .my-boards {
-  color: var(--debond-white);
-  font-weight: 700;
-  left: 182px;
-  line-height: 27px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-  width: 144px;
+    color: var(--debond-white);
+    font-weight: 700;
+    left: 182px;
+    line-height: 27px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 144px;
 }
 
 .desktop-1440-about .feed {
-  color: var(--debond-white);
-  font-weight: 700;
-  left: 0;
-  line-height: 27px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-  width: 187px;
+    color: var(--debond-white);
+    font-weight: 700;
+    left: 0;
+    line-height: 27px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 187px;
 }
 
 .desktop-1440-about .my-boards-1 {
-  color: var(--debond-white);
-  font-weight: 700;
-  line-height: 27px;
-  margin-left: 29px;
-  margin-top: 5.0px;
-  min-height: 27px;
-  text-align: center;
-  white-space: nowrap;
-  width: 79px;
+    color: var(--debond-white);
+    font-weight: 700;
+    line-height: 27px;
+    margin-left: 29px;
+    margin-top: 5.0px;
+    min-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    width: 79px;
 }
 
 .desktop-1440-about .my-boards-2 {
-  color: var(--debond-white);
-  font-weight: 700;
-  line-height: 27px;
-  margin-left: 56px;
-  margin-top: 5.0px;
-  min-height: 27px;
-  text-align: center;
-  white-space: nowrap;
-  width: 147px;
+    color: var(--debond-white);
+    font-weight: 700;
+    line-height: 27px;
+    margin-left: 56px;
+    margin-top: 5.0px;
+    min-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    width: 147px;
 }
 
 .desktop-1440-about .team {
-  align-items: flex-end;
-  display: flex;
-  flex-direction: column;
-  margin-top: 113px;
-  min-height: 300px;
-  padding: 0 182px;
-  width: 1440px;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-top: 113px;
+    min-height: 300px;
+    padding: 0 182px;
+    width: 1440px;
 }
 
 .desktop-1440-about .overlap-group-5 {
-  align-self: center;
-  height: 191px;
-  margin-top: 42px;
-  position: relative;
-  width: 992px;
+    align-self: center;
+    height: 191px;
+    margin-top: 42px;
+    position: relative;
+    width: 992px;
 }
 
 .desktop-1440-about .debond-protocol-is-s {
-  color: var(--debond-white);
-  font-weight: 700;
-  left: 0;
-  line-height: 40.2px;
-  position: absolute;
-  text-align: center;
-  top: 107px;
-  width: 992px;
+    color: var(--debond-white);
+    font-weight: 700;
+    left: 0;
+    line-height: 40.2px;
+    position: absolute;
+    text-align: center;
+    top: 107px;
+    width: 992px;
 }
 
 .desktop-1440-about .team-title-h1 {
-  position: absolute;
-  left: 19.31%;
-  right: 19.24%;
-  /*top: 1.67%;*/
-  bottom: 43.33%;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 120px;
-  line-height: 134.09%;
-  /* or 161px */
-  text-align: center;
-  letter-spacing: -0.01em;
-  color: #FFFFFF;
-  text-shadow: 0px 17.8712px 17.8712px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 19.31%;
+    right: 19.24%;
+    /*top: 1.67%;*/
+    bottom: 43.33%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 134.09%;
+    /* or 161px */
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    text-shadow: 0px 17.8712px 17.8712px rgba(0, 0, 0, 0.25);
 }
 
 .desktop-1440-about .rectangle-29 {
-  background-color: #c4c4c4;
-  height: 480px;
-  margin-top: 67px;
-  width: 1074px;
+    background-color: #c4c4c4;
+    height: 480px;
+    margin-top: 67px;
+    width: 1074px;
 }
 
 .desktop-1440-about .overlap-group15 {
-  align-items: flex-end;
-  display: flex;
-  height: 618px;
-  margin-left: 1.85px;
-  margin-top: 780px;
-  min-width: 1202px;
+    align-items: flex-end;
+    display: flex;
+    height: 618px;
+    margin-left: 1.85px;
+    margin-top: 780px;
+    min-width: 1202px;
 }
 
 .desktop-1440-about .overlap-group {
-  height: 438px;
-  position: relative;
-  width: 381px;
+    height: 438px;
+    position: relative;
+    width: 381px;
 }
 
 .desktop-1440-about .x1440company_card {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  left: 0;
-  min-height: 438px;
-  position: absolute;
-  top: 0;
-  width: 381px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    min-height: 438px;
+    position: absolute;
+    top: 0;
+    width: 381px;
 }
 
 .desktop-1440-about .overlap-group-1 {
-  align-items: flex-end;
-  background-color: var(--debond-white);
-  display: flex;
-  height: 216px;
-  justify-content: flex-end;
-  min-width: 381px;
-  padding: 70.8px 151.0px;
+    align-items: flex-end;
+    background-color: var(--debond-white);
+    display: flex;
+    height: 216px;
+    justify-content: flex-end;
+    min-width: 381px;
+    padding: 70.8px 151.0px;
 }
 
 .desktop-1440-about .logo-partenaire {
-  height: 71px;
-  width: 74px;
+    height: 71px;
+    width: 74px;
 }
 
 .desktop-1440-about .teamtex-groupe {
-  color: var(--debond-white);
-  font-weight: 700;
-  line-height: 42.9px;
-  margin-left: 0;
-  margin-top: 29px;
-  min-height: 40px;
-  text-align: center;
-  white-space: nowrap;
-  width: 348px;
+    color: var(--debond-white);
+    font-weight: 700;
+    line-height: 42.9px;
+    margin-left: 0;
+    margin-top: 29px;
+    min-height: 40px;
+    text-align: center;
+    white-space: nowrap;
+    width: 348px;
 }
 
 .desktop-1440-about .a-small-introduction {
-  color: var(--debond-white);
-  font-weight: 500;
-  line-height: 29.2px;
-  margin-left: 0.92px;
-  margin-top: 11px;
-  min-height: 123px;
-  text-align: center;
-  width: 360px;
+    color: var(--debond-white);
+    font-weight: 500;
+    line-height: 29.2px;
+    margin-left: 0.92px;
+    margin-top: 11px;
+    min-height: 123px;
+    text-align: center;
+    width: 360px;
 }
 
 .desktop-1440-about .image-1 {
-  height: 170px;
-  left: 105px;
-  object-fit: cover;
-  position: absolute;
-  top: 19px;
-  width: 170px;
+    height: 170px;
+    left: 105px;
+    object-fit: cover;
+    position: absolute;
+    top: 19px;
+    width: 170px;
 }
 
 .desktop-1440-about .flex-col {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-left: 28px;
-  min-height: 549px;
-  width: 385px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 28px;
+    min-height: 549px;
+    width: 385px;
 }
 
 .desktop-1440-about .our-advisors {
-  height: 80px;
-  margin-left: 6.42px;
-  width: 310px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    color: #FFFFFF;
+    height: 80px;
+    margin-left: 6.42px;
+    width: 310px;
 }
 
 .desktop-1440-about .overlap-group22 {
-  height: 438px;
-  margin-top: 31px;
-  position: relative;
-  width: 385px;
+    height: 438px;
+    margin-top: 31px;
+    position: relative;
+    width: 385px;
 }
 
 .desktop-1440-about .x1440company_card-1 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  left: 0;
-  min-height: 438px;
-  position: absolute;
-  top: 0;
-  width: 385px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    min-height: 438px;
+    position: absolute;
+    top: 0;
+    width: 385px;
 }
 
 .desktop-1440-about .rectangle {
-  background-color: var(--debond-white);
-  height: 216px;
-  margin-left: 0.15px;
-  width: 385px;
+    background-color: var(--debond-white);
+    height: 216px;
+    margin-left: 0.15px;
+    width: 385px;
 }
 
 .desktop-1440-about .teamtex-groupe-1 {
-  letter-spacing: 0;
-  line-height: 39.3px;
-  margin-left: 0.15px;
-  margin-top: 29px;
-  min-height: 40px;
-  text-align: center;
-  white-space: nowrap;
-  width: 352px;
+    letter-spacing: 0;
+    line-height: 39.3px;
+    margin-left: 0.15px;
+    margin-top: 29px;
+    min-height: 40px;
+    text-align: center;
+    white-space: nowrap;
+    width: 352px;
 }
 
 .desktop-1440-about .a-small-introduction-1 {
-  letter-spacing: 0;
-  line-height: 26.8px;
-  margin-left: 1.06px;
-  margin-top: 11px;
-  min-height: 123px;
-  text-align: center;
-  width: 364px;
+    letter-spacing: 0;
+    line-height: 26.8px;
+    margin-left: 1.06px;
+    margin-top: 11px;
+    min-height: 123px;
+    text-align: center;
+    width: 364px;
 }
 
 .desktop-1440-about .image-2 {
-  height: 103px;
-  left: 11px;
-  position: absolute;
-  top: 53px;
-  width: 331px;
+    height: 103px;
+    left: 11px;
+    position: absolute;
+    top: 53px;
+    width: 331px;
 }
 
 .desktop-1440-about .overlap-group23 {
-  height: 438px;
-  margin-left: 24px;
-  position: relative;
-  width: 385px;
+    height: 438px;
+    margin-left: 24px;
+    position: relative;
+    width: 385px;
 }
 
 .desktop-1440-about .overlap-group-2 {
-  align-items: flex-end;
-  background-color: var(--debond-white);
-  display: flex;
-  height: 216px;
-  justify-content: flex-end;
-  margin-left: 0.15px;
-  min-width: 385px;
-  padding: 70.8px 154.0px;
+    align-items: flex-end;
+    background-color: var(--debond-white);
+    display: flex;
+    height: 216px;
+    justify-content: flex-end;
+    margin-left: 0.15px;
+    min-width: 385px;
+    padding: 70.8px 154.0px;
 }
 
 .desktop-1440-about .teamtex-groupe-2 {
-  color: var(--debond-white);
-  font-weight: 700;
-  line-height: 42.9px;
-  margin-left: 0.15px;
-  margin-top: 29px;
-  min-height: 40px;
-  text-align: center;
-  white-space: nowrap;
-  width: 352px;
+    color: var(--debond-white);
+    font-weight: 700;
+    line-height: 42.9px;
+    margin-left: 0.15px;
+    margin-top: 29px;
+    min-height: 40px;
+    text-align: center;
+    white-space: nowrap;
+    width: 352px;
 }
 
 .desktop-1440-about .a-small-introduction-2 {
-  color: var(--debond-white);
-  font-weight: 500;
-  line-height: 29.2px;
-  margin-left: 1.06px;
-  margin-top: 11px;
-  min-height: 123px;
-  text-align: center;
-  width: 364px;
+    color: var(--debond-white);
+    font-weight: 500;
+    line-height: 29.2px;
+    margin-left: 1.06px;
+    margin-top: 11px;
+    min-height: 123px;
+    text-align: center;
+    width: 364px;
 }
 
 .desktop-1440-about .image-3 {
-  height: 98px;
-  left: 143px;
-  object-fit: cover;
-  position: absolute;
-  top: 55px;
-  width: 98px;
+    height: 98px;
+    left: 143px;
+    object-fit: cover;
+    position: absolute;
+    top: 55px;
+    width: 98px;
 }
 
 .desktop-1440-about .overlap-group-container {
-  align-items: flex-start;
-  display: flex;
-  margin-left: 1.85px;
-  margin-top: 42px;
-  min-width: 1202px;
+    align-items: flex-start;
+    display: flex;
+    margin-left: 1.85px;
+    margin-top: 42px;
+    min-width: 1202px;
 }
 
 .desktop-1440-about .image-4 {
-  height: 140px;
-  left: 121px;
-  object-fit: cover;
-  position: absolute;
-  top: 40px;
-  width: 140px;
+    height: 140px;
+    left: 121px;
+    object-fit: cover;
+    position: absolute;
+    top: 40px;
+    width: 140px;
 }
 
 .desktop-1440-about .overlap-group1 {
-  height: 438px;
-  margin-left: 28px;
-  position: relative;
-  width: 385px;
+    height: 438px;
+    margin-left: 28px;
+    position: relative;
+    width: 385px;
 }
 
 .desktop-1440-about .image-5 {
-  height: 94px;
-  left: 39px;
-  position: absolute;
-  top: 61px;
-  width: 293px;
+    height: 94px;
+    left: 39px;
+    position: absolute;
+    top: 61px;
+    width: 293px;
 }
 
 .desktop-1440-about .overlap-group-3 {
-  height: 438px;
-  margin-left: 23px;
-  position: relative;
-  width: 385px;
+    height: 438px;
+    margin-left: 23px;
+    position: relative;
+    width: 385px;
 }
 
 .desktop-1440-about .image-6 {
-  height: 121px;
-  left: 79px;
-  object-fit: cover;
-  position: absolute;
-  top: 48px;
-  width: 226px;
+    height: 121px;
+    left: 79px;
+    object-fit: cover;
+    position: absolute;
+    top: 48px;
+    width: 226px;
 }
 
 .desktop-1440-about .overlap-group-container-1 {
-  align-items: flex-start;
-  display: flex;
-  margin-left: 1.85px;
-  margin-top: 82px;
-  min-width: 1202px;
+    align-items: flex-start;
+    display: flex;
+    margin-left: 1.85px;
+    margin-top: 82px;
+    min-width: 1202px;
 }
 
 .desktop-1440-about .overlap-group5 {
-  align-items: flex-end;
-  background-color: var(--debond-white);
-  display: flex;
-  height: 216px;
-  justify-content: flex-end;
-  min-width: 381px;
-  padding: 70.8px 150.7px;
+    align-items: flex-end;
+    background-color: var(--debond-white);
+    display: flex;
+    height: 216px;
+    justify-content: flex-end;
+    min-width: 381px;
+    padding: 70.8px 150.7px;
 }
 
 .desktop-1440-about .teamtex-groupe-3 {
-  letter-spacing: 0;
-  line-height: 39.3px;
-  margin-left: 0;
-  margin-top: 29px;
-  min-height: 40px;
-  text-align: center;
-  white-space: nowrap;
-  width: 348px;
+    letter-spacing: 0;
+    line-height: 39.3px;
+    margin-left: 0;
+    margin-top: 29px;
+    min-height: 40px;
+    text-align: center;
+    white-space: nowrap;
+    width: 348px;
 }
 
 .desktop-1440-about .a-small-introduction-3 {
-  letter-spacing: 0;
-  line-height: 26.8px;
-  margin-left: 0.92px;
-  margin-top: 11px;
-  min-height: 123px;
-  text-align: center;
-  width: 360px;
+    letter-spacing: 0;
+    line-height: 26.8px;
+    margin-left: 0.92px;
+    margin-top: 11px;
+    min-height: 123px;
+    text-align: center;
+    width: 360px;
 }
 
 .desktop-1440-about .bixin-logo-1 {
-  height: 27px;
-  left: 88px;
-  position: absolute;
-  top: 103px;
-  width: 206px;
+    height: 27px;
+    left: 88px;
+    position: absolute;
+    top: 103px;
+    width: 206px;
 }
 
 .desktop-1440-about .image-10 {
-  height: 155px;
-  left: 125px;
-  position: absolute;
-  top: 26px;
-  width: 123px;
+    height: 155px;
+    left: 125px;
+    position: absolute;
+    top: 26px;
+    width: 123px;
 }
 
 .desktop-1440-about .teamtex-groupe-4 {
-  color: var(--debond-white);
-  font-weight: 700;
-  line-height: 42.9px;
-  margin-left: 0.13px;
-  margin-top: 29px;
-  min-height: 40px;
-  min-width: 292px;
-  text-align: center;
-  white-space: nowrap;
+    color: var(--debond-white);
+    font-weight: 700;
+    line-height: 42.9px;
+    margin-left: 0.13px;
+    margin-top: 29px;
+    min-height: 40px;
+    min-width: 292px;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .desktop-1440-about .image-9 {
-  height: 146px;
-  left: 55px;
-  object-fit: cover;
-  position: absolute;
-  top: 35px;
-  width: 274px;
+    height: 146px;
+    left: 55px;
+    object-fit: cover;
+    position: absolute;
+    top: 35px;
+    width: 274px;
 }
 
 .desktop-1440-about .our-advisors-1 {
-  height: 80px;
-  margin-right: 0.52px;
-  margin-top: 173px;
-  width: 198px;
+    height: 80px;
+    margin-right: 0.52px;
+    margin-top: 173px;
+    width: 198px;
 }
 
 .desktop-1440-about .overlap-group14 {
-  height: 458px;
-  margin-left: 2.85px;
-  margin-top: 27px;
-  position: relative;
-  width: 1201px;
+    height: 458px;
+    margin-left: 2.85px;
+    margin-top: 27px;
+    position: relative;
+    width: 1201px;
 }
 
 .desktop-1440-about .x1440company_card-3 {
-  align-items: flex-start;
-  display: flex;
-  height: 438px;
-  left: 0;
-  min-width: 381px;
-  position: absolute;
-  top: 0;
+    align-items: flex-start;
+    display: flex;
+    height: 438px;
+    left: 0;
+    min-width: 381px;
+    position: absolute;
+    top: 0;
 }
 
 .desktop-1440-about .x1440company_card-4 {
-  align-items: flex-start;
-  display: flex;
-  height: 438px;
-  left: 408px;
-  min-width: 385px;
-  position: absolute;
-  top: 0;
+    align-items: flex-start;
+    display: flex;
+    height: 438px;
+    left: 408px;
+    min-width: 385px;
+    position: absolute;
+    top: 0;
 }
 
 .desktop-1440-about .overlap-group-4 {
-  align-items: flex-end;
-  background-color: var(--debond-white);
-  display: flex;
-  height: 216px;
-  justify-content: flex-end;
-  min-width: 385px;
-  padding: 70.8px 153.7px;
+    align-items: flex-end;
+    background-color: var(--debond-white);
+    display: flex;
+    height: 216px;
+    justify-content: flex-end;
+    min-width: 385px;
+    padding: 70.8px 153.7px;
 }
 
 .desktop-1440-about .x1440company_card-5 {
-  align-items: flex-start;
-  display: flex;
-  height: 438px;
-  left: 816px;
-  min-width: 385px;
-  position: absolute;
-  top: 0;
+    align-items: flex-start;
+    display: flex;
+    height: 438px;
+    left: 816px;
+    min-width: 385px;
+    position: absolute;
+    top: 0;
 }
 
 .desktop-1440-about .overlap-group11 {
-  align-items: flex-end;
-  background-color: var(--debond-white);
-  display: flex;
-  height: 216px;
-  justify-content: flex-end;
-  min-width: 385px;
-  padding: 70.8px 154.0px;
+    align-items: flex-end;
+    background-color: var(--debond-white);
+    display: flex;
+    height: 216px;
+    justify-content: flex-end;
+    min-width: 385px;
+    padding: 70.8px 154.0px;
 }
 
 .desktop-1440-about .frame-86 {
-  align-items: flex-end;
-  display: flex;
-  height: 216px;
-  left: 203px;
-  min-width: 793px;
-  position: absolute;
-  top: 242px;
+    align-items: flex-end;
+    display: flex;
+    height: 216px;
+    left: 203px;
+    min-width: 793px;
+    position: absolute;
+    top: 242px;
 }
 
 .desktop-1440-about .overlap-group12 {
-  height: 438px;
-  margin-bottom: -222px;
-  position: relative;
-  width: 385px;
+    height: 438px;
+    margin-bottom: -222px;
+    position: relative;
+    width: 385px;
 }
 
 .desktop-1440-about .x1440company_card-2 {
-  align-items: flex-start;
-  display: flex;
-  height: 438px;
-  left: 0;
-  min-width: 385px;
-  position: absolute;
-  top: 0;
+    align-items: flex-start;
+    display: flex;
+    height: 438px;
+    left: 0;
+    min-width: 385px;
+    position: absolute;
+    top: 0;
 }
 
 .desktop-1440-about .image-12 {
-  height: 178px;
-  left: 41px;
-  object-fit: cover;
-  position: absolute;
-  top: 21px;
-  width: 306px;
+    height: 178px;
+    left: 41px;
+    object-fit: cover;
+    position: absolute;
+    top: 21px;
+    width: 306px;
 }
 
 .desktop-1440-about .overlap-group13 {
-  height: 438px;
-  margin-bottom: -222px;
-  margin-left: 23px;
-  position: relative;
-  width: 385px;
+    height: 438px;
+    margin-bottom: -222px;
+    margin-left: 23px;
+    position: relative;
+    width: 385px;
 }
 
 .desktop-1440-about .rectangle-1 {
-  background-color: var(--debond-white);
-  height: 216px;
-  width: 385px;
+    background-color: var(--debond-white);
+    height: 216px;
+    width: 385px;
 }
 
 .desktop-1440-about .image-11 {
-  height: 202px;
-  left: 91px;
-  object-fit: cover;
-  position: absolute;
-  top: 6px;
-  width: 202px;
+    height: 202px;
+    left: 91px;
+    object-fit: cover;
+    position: absolute;
+    top: 6px;
+    width: 202px;
 }
 
 .desktop-1440-about .blockbeats {
-  height: 81px;
-  left: 66px;
-  object-fit: cover;
-  position: absolute;
-  top: 65px;
-  width: 250px;
+    height: 81px;
+    left: 66px;
+    object-fit: cover;
+    position: absolute;
+    top: 65px;
+    width: 250px;
 }
 
 .desktop-1440-about .wu-blockchain {
-  height: 54px;
-  left: 448px;
-  object-fit: cover;
-  position: absolute;
-  top: 86px;
-  width: 304px;
+    height: 54px;
+    left: 448px;
+    object-fit: cover;
+    position: absolute;
+    top: 86px;
+    width: 304px;
 }
 
 .desktop-1440-about .rectangle-28 {
-  background-color: var(--debond-white);
-  height: 102px;
-  left: 959px;
-  position: absolute;
-  top: 54px;
-  width: 104px;
+    background-color: var(--debond-white);
+    height: 102px;
+    left: 959px;
+    position: absolute;
+    top: 54px;
+    width: 104px;
 }
 
 .desktop-1440-about .le-figaro {
-  height: 51px;
-  left: 867px;
-  object-fit: cover;
-  position: absolute;
-  top: 84px;
-  width: 283px;
+    height: 51px;
+    left: 867px;
+    object-fit: cover;
+    position: absolute;
+    top: 84px;
+    width: 283px;
 }
 
 .desktop-1440-about .x1440footer {
-  align-items: center;
-  background-color: var(--debond-black);
-  display: flex;
-  height: 430px;
-  margin-left: 1.0px;
-  margin-top: 95px;
-  min-width: 1439px;
-  padding: 72px 89px;
+    align-items: center;
+    background-color: var(--debond-black);
+    display: flex;
+    height: 430px;
+    margin-left: 1.0px;
+    margin-top: 95px;
+    min-width: 1439px;
+    padding: 72px 89px;
 }
 
 .desktop-1440-about .flex-col-1 {
-  align-items: flex-start;
-  align-self: flex-start;
-  display: flex;
-  flex-direction: column;
-  min-height: 150px;
-  width: 300px;
+    align-items: flex-start;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    width: 300px;
 }
 
 .desktop-1440-about .debond {
-  letter-spacing: 0;
-  line-height: 0.1px;
-  min-height: 1px;
-  text-align: center;
-  width: 286px;
+    letter-spacing: 0;
+    line-height: 0.1px;
+    min-height: 1px;
+    text-align: center;
+    width: 286px;
 }
 
 .desktop-1440-about .overlap-group2 {
-  align-self: flex-end;
-  height: 87px;
-  margin-top: 7px;
-  position: relative;
-  width: 271px;
+    align-self: flex-end;
+    height: 87px;
+    margin-top: 7px;
+    position: relative;
+    width: 271px;
 }
 
 .desktop-1440-about .material-surfaces {
-  left: 0;
-  letter-spacing: -0.42px;
-  line-height: 27.1px;
-  position: absolute;
-  top: 55px;
-  white-space: nowrap;
-  width: 260px;
+    left: 0;
+    letter-spacing: -0.42px;
+    line-height: 27.1px;
+    position: absolute;
+    top: 55px;
+    white-space: nowrap;
+    width: 260px;
 }
 
 .desktop-1440-about .feed-1 {
-  left: 224px;
-  letter-spacing: -0.20px;
-  line-height: 13.0px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 47px;
+    left: 224px;
+    letter-spacing: -0.20px;
+    line-height: 13.0px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 47px;
 }
 
 .desktop-1440-about .debond-protocol-20 {
-  color: var(--debond-white);
-  font-weight: 500;
-  line-height: 15.5px;
-  margin-left: 31px;
-  margin-top: 8px;
-  min-height: 47px;
+    color: var(--debond-white);
+    font-weight: 500;
+    line-height: 15.5px;
+    margin-left: 31px;
+    margin-top: 8px;
+    min-height: 47px;
 }
 
 .desktop-1440-about .frame-54 {
-  align-items: flex-start;
-  display: flex;
-  height: 134px;
-  margin-bottom: 24.0px;
-  margin-left: 50px;
-  min-width: 445px;
-  padding: 0 76px;
+    align-items: flex-start;
+    display: flex;
+    height: 134px;
+    margin-bottom: 24.0px;
+    margin-left: 50px;
+    min-width: 445px;
+    padding: 0 76px;
 }
 
 .desktop-1440-about .flex-col-2 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  margin-top: -6px;
-  min-height: 73px;
-  width: 87px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: -6px;
+    min-height: 73px;
+    width: 87px;
 }
 
 .desktop-1440-about .technology {
-  letter-spacing: 0;
-  line-height: 24px;
-  min-height: 24px;
-  white-space: nowrap;
+    letter-spacing: 0;
+    line-height: 24px;
+    min-height: 24px;
+    white-space: nowrap;
 }
 
 .desktop-1440-about .team-1 {
-  color: var(--debond-white);
-  font-weight: 700;
-  line-height: 24px;
-  margin-top: 25px;
-  min-height: 24px;
-  white-space: nowrap;
+    color: var(--debond-white);
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 25px;
+    min-height: 24px;
+    white-space: nowrap;
 }
 
 .desktop-1440-about .flex-col-3 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  margin-left: 120px;
-  margin-top: -5px;
-  min-height: 72px;
-  width: 86px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: -5px;
+    min-height: 72px;
+    width: 86px;
 }
 
 .desktop-1440-about .about {
-  letter-spacing: 0;
-  line-height: 24px;
-  margin-left: 3px;
-  min-height: 24px;
-  white-space: nowrap;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-left: 3px;
+    min-height: 24px;
+    white-space: nowrap;
 }
 
 .desktop-1440-about .community {
-  letter-spacing: 0;
-  line-height: 24px;
-  margin-top: 24px;
-  min-height: 24px;
-  white-space: nowrap;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 24px;
+    min-height: 24px;
+    white-space: nowrap;
 }
 
 .desktop-1440-about .flex-col-4 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 87.38px;
-  margin-left: 105px;
-  min-height: 81px;
-  width: 282px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 87.38px;
+    margin-left: 105px;
+    min-height: 81px;
+    width: 282px;
 }
 
 .desktop-1440-about .keep-in-touch {
-  letter-spacing: 0;
-  line-height: 24px;
-  min-height: 24px;
-  min-width: 100px;
-  white-space: nowrap;
+    letter-spacing: 0;
+    line-height: 24px;
+    min-height: 24px;
+    min-width: 100px;
+    white-space: nowrap;
 }
 
 .desktop-1440-about .frame-56 {
-  align-items: center;
-  display: flex;
-  margin-top: 20px;
-  min-width: 282px;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    min-width: 282px;
 }
 
 .desktop-1440-about .twitter {
-  height: 26px;
-  margin-bottom: 0.62px;
-  width: 26px;
+    height: 26px;
+    margin-bottom: 0.62px;
+    width: 26px;
 }
 
 .desktop-1440-about .github {
-  height: 29px;
-  margin-left: 13px;
-  margin-top: 0.38px;
-  width: 29px;
+    height: 29px;
+    margin-left: 13px;
+    margin-top: 0.38px;
+    width: 29px;
 }
 
 .desktop-1440-about .reddit-svgrepo-com-1 {
-  align-items: flex-start;
-  display: flex;
-  height: 33px;
-  margin-left: 13px;
-  margin-top: 0.38px;
-  padding: 0 1.4px;
-  width: 33px;
+    align-items: flex-start;
+    display: flex;
+    height: 33px;
+    margin-left: 13px;
+    margin-top: 0.38px;
+    padding: 0 1.4px;
+    width: 33px;
 }
 
 .desktop-1440-about .reddit {
-  height: 26px;
-  margin-top: -0.48px;
-  width: 29px;
+    height: 26px;
+    margin-top: -0.48px;
+    width: 29px;
 }
 
 .desktop-1440-about .discord {
-  align-items: flex-start;
-  display: flex;
-  height: 37px;
-  margin-left: 13px;
-  padding: 8.6px 4.6px;
-  width: 37px;
+    align-items: flex-start;
+    display: flex;
+    height: 37px;
+    margin-left: 13px;
+    padding: 8.6px 4.6px;
+    width: 37px;
 }
 
 .desktop-1440-about .subtract {
-  height: 18px;
-  width: 25px;
+    height: 18px;
+    width: 25px;
 }
 
 .desktop-1440-about .medium {
-  height: 16px;
-  margin-left: 8px;
-  margin-top: 0.57px;
-  width: 28px;
+    height: 16px;
+    margin-left: 8px;
+    margin-top: 0.57px;
+    width: 28px;
 }
 
 .desktop-1440-about .youtube {
-  height: 25px;
-  margin-left: 18px;
-  margin-top: 0.38px;
-  width: 25px;
+    height: 25px;
+    margin-left: 18px;
+    margin-top: 0.38px;
+    width: 25px;
 }
 
 .desktop-1440-about .telegram-svgrepo-com-1 {
-  height: 25px;
-  margin-left: 14px;
-  margin-top: 0.38px;
-  width: 25px;
+    height: 25px;
+    margin-left: 14px;
+    margin-top: 0.38px;
+    width: 25px;
 }
