@@ -1,5 +1,7 @@
 <div class="item">
+    {% if include.path %}
     <div class="item-header"><img src={{include.path}}/></div>
+    {% endif %}
     <p >{{ include.name }}</p>
     <span >{{ include.description }}</span>
 </div>

@@ -7,6 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #121212;
+    margin:0px;
 }
 
 p {
@@ -18,10 +19,28 @@ a {
     text-decoration: none;
 }
 
-.centered{
+.centered {
     justify-content: center;
     display: flex;
 }
+
+.debondh2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 55px;
+    /* or 153% */
+    text-align: center;
+    /* Debond White */
+    color: #FFFFFF;
+}
+
+.vertical-spaced{
+    margin-top: 180px;
+    margin-bottom: 27px;
+}
+
 
 #menu_content {
     display: none;
@@ -106,8 +125,7 @@ a {
 
 
 .button {
-    width: 195px;
-    height: 45px;
+    padding:20px 110px 20px 110px;
     background: #403AF4;
     font-family: Inter;
     font-style: normal;

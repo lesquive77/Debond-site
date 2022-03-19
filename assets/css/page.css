@@ -58,7 +58,7 @@
 @media only screen and (min-width: 550px) and (max-width: 725px) {
     .page {
         max-width: 660px;
-        padding: 112px 30px 75px 30px;
+       /* padding: 112px 30px 75px 30px;*/
     }
 
     .page-title {
@@ -71,7 +71,7 @@
 @media only screen and (min-width: 725px) and (max-width: 1340px) {
     .page {
         max-width: 100%;
-        padding: 50px 48px 73px 48px;
+        /*padding: 50px 48px 73px 48px;*/
     }
 
     .page-title {
@@ -102,7 +102,7 @@
     .page {
         max-width: 1440px;
         width: 100%;
-        padding: 119px 121px 58px 117px;
+        /*padding: 119px 121px 58px 117px;*/
     }
 
     .page-title {

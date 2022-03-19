@@ -24,6 +24,7 @@
     width: 381px;
     height: 438px;
     margin: 20px;
+    text-align: center;
 }
 
 .debond-table .item .item-header {
@@ -64,5 +65,6 @@
     color: #FFFFFF;
     box-sizing: content-box;
 }
+
 
 
