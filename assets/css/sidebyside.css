@@ -1,0 +1,33 @@
+
+.sidebyside {
+    display: flex;
+}
+
+.sidebyside div {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.sidebyside .sbs-header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.sidebyside .sbs-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.sidebyside div img{
+    width: 415.51px;
+    transform: rotate(75deg);
+}
