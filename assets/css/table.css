@@ -85,6 +85,9 @@
 
 
 @media only screen and (min-width: 725px) and (max-width: 1340px) {
+    .table-container{
+        width: 95%;
+    }
     .debond-table .item {
         width: 207px;
     }

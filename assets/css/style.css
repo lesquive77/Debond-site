@@ -55,11 +55,16 @@ a {
         font-size: 36px;
         line-height: 55px;
     }
+    .vertical-spaced {
+        margin-top: 180px;
+        margin-bottom: 27px;
+    }
+
 }
 
 
 .vertical-spaced {
-    margin-top: 180px;
+    margin-top: 50px;
     margin-bottom: 27px;
 }
 

@@ -3,8 +3,8 @@ layout: default
 title: Technology
 permalink: /technology
 custom_css:
-- technology/technology
 - sidebyside
+- technology/technology
 ---
 
 <div class="page">
@@ -17,8 +17,8 @@ custom_css:
     </div>
 
 
-    <div class="table-container">
-        <div class="debond-table technology">
+    <div class="table-container technology">
+        <div class="debond-table">
             {% for tech in site.data.technology %}
             {% include technoItem.html name=tech.title description=tech.description top=tech.number %}
             {% endfor %}
@@ -30,7 +30,7 @@ custom_css:
         <img id="round-right" src="assets/images/eip/round-right.png"/>
     </div>
 
-
+    <div class="eip">
         <div class="eip-text">
 
             <div class="eip-header">EIP–3475</div>
@@ -44,8 +44,12 @@ custom_css:
             </div>
             <button class="button">Download the documentation</button>
         </div>
+    </div>
 
     <div class="sidebyside">
+        <div>
+            <img id="introducing" src="assets/images/eip/introducing.png"/>
+        </div>
         <div>
             <div class="sbs-header">Introducing <br> Debond</div>
             <div class="sbs-text">
@@ -53,12 +57,12 @@ custom_css:
                 their predictable yields.
                 <br><br>
                 We have created the ERC–3475 standard to make investments safer and more stable in DeFi.
-                <button class="button">Launch our webapp</button>
+                <div class="centered">
+                    <button class="button">Launch our webapp</button>
+                </div>
             </div>
         </div>
-        <div>
-            <img src="assets/images/eip/introducing.png"/>
-        </div>
+
     </div>
 
     <div class="table-container">

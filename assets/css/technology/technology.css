@@ -1,13 +1,15 @@
-.sidebyside{
-    margin-top: 800px;
-}
-.debond-table .item {
-    width: 280px;
+.sidebyside {
+    margin-top: 100px;
 }
 
-.debond-table .item  {
+.debond-table .item {
+    width: 195px;
+}
+
+.debond-table .item {
     text-align: left;
 }
+
 .item .item-top {
     font-family: 'Inter';
     font-style: normal;
@@ -22,11 +24,12 @@
     text-align: left;
 }
 
+
 #round-left {
     position: absolute;
     width: 391px;
     height: 177.88px;
-    right: -40%;
+    margin-left: 60%;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     z-index: 0;
 
@@ -47,7 +50,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 1930px;
+    top: 2030px;
     overflow: hidden;
 }
 
@@ -73,13 +76,20 @@
 
     /* Debond White */
     color: #FFFFFF;
+}
 
+.works .item p {
+    text-align: left;
+}
+
+.eip {
+    z-index: 1;
 }
 
 .eip-text {
     height: 505px;
     width: 314px;
-    margin:200px 30px 0px 30px;
+    margin: 200px 30px 0px 30px;
     z-index: 1;
 }
 
@@ -94,7 +104,7 @@
 
     /* Debond White */
     color: #FFFFFF;
-    margin-top:29px;
+    margin-top: 29px;
 }
 
 .introducing-header {
@@ -130,6 +140,10 @@
     vertical-align: middle;
 }
 
+#introducing {
+    width: 218px;
+}
+
 .introducing {
     position: relative;
     left: 0;
@@ -148,7 +162,7 @@
 
 .debond-table .item .item-header {
     background: transparent;
-    height: 300px;
+    height: fit-content;
 }
 
 
@@ -158,7 +172,11 @@
 }
 
 .table-container {
-    margin-top: 200px;
+    margin-top: 160px;
+}
+
+.works img {
+    width: 140px;
 }
 
 .table-title {
@@ -182,22 +200,132 @@
     line-height: 37px;
 }
 
-@media only screen and (min-width: 725px) and (max-width: 1140px) {
+
+@media only screen and (min-width: 376px) and (max-width: 724px) {
+    .introducing img {
+        width: 183px;
+        height: 195px;
+    }
+
+    .technology .item {
+        width: 285px;
+    }
+
+    .eip-text {
+        margin-top: 300px;
+    }
+
+    .technology .debond-table .item p {
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+
+    .sidebyside div {
+        margin-top: 30px;
+    }
+
+    .sidebyside .sbs-header, .sidebyside .sbs-text {
+        line-height: 37px;
+        text-align: left;
+    }
+
+    .sidebyside .sbs-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* or 125% */
+    }
+
+    .works .item {
+        width: 310px;
+    }
+
+    .works .item p {
+        font-size: 32px;
+        margin-bottom: 14px;
+    }
+
+    .debond-table .item span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .eip-container {
+        top: 1730px;
+    }
+
+}
+
+
+@media only screen and (min-width: 725px) and (max-width: 1339px) {
+    .eip-container {
+        top: 1000px;
+    }
+
     #round-right {
 
     }
 
     #round-left {
+        position: absolute;
+        width: 351px;
+        height: unset;
+        left: 0px;
+        top: 0px;
+        transform: unset;
+        margin-left: unset;
+        margin-left: -60px;
+    }
 
+    .debond-table .item span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .debond-table .item .item-top, .debond-table .item p {
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 37px;
+    }
+
+    .debond-table .item p {
+        margin-bottom: 20px;
+    }
+
+    .eip {
+        width: 100%;
+    }
+
+    .eip-text{
+        margin: 250px 30px 0px 30px;
+    }
+
+    .works .item .item-header {
+        height: 200px;
+    }
+    .works .item p{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .works .item span{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .works .item .item-header img {
+        max-width: 111px;
     }
 }
 
-@media only screen and (min-width: 376px) and (max-width: 550px) {
-    .introducing img {
-        width: 183.94px;
-        height: 195.65px;
-    }
-}
 
 @media only screen and (min-width: 1340px) {
     .eip-description {
@@ -243,5 +371,17 @@
         bottom: 0px;
         z-index: 0;
     }
+
+    .table-container {
+        margin-top: 200px;
+    }
+
+    .debond-table .item {
+        width: 280px;
+    }
+
+
+
+
 
 }
