@@ -7,7 +7,15 @@ body {
     justify-content: center;
     align-items: center;
     background: #121212;
-    margin:0px;
+    margin: 0px;
+}
+
+em{
+ font-style: unset;
+}
+
+.debond-color-font{
+    color: #403AF4!important;
 }
 
 p {
@@ -25,18 +33,32 @@ a {
 }
 
 .debondh2 {
+    /* 🖥menu entries•24pt */
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 55px;
-    /* or 153% */
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    /* or 112% */
     text-align: center;
+    letter-spacing: -0.41759px;
+
     /* Debond White */
     color: #FFFFFF;
+
 }
 
-.vertical-spaced{
+@media only screen and (min-width: 1340px) {
+
+    .debondh2 {
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 55px;
+    }
+}
+
+
+.vertical-spaced {
     margin-top: 180px;
     margin-bottom: 27px;
 }
@@ -125,7 +147,7 @@ a {
 
 
 .button {
-    padding:20px 110px 20px 110px;
+    padding: 20px 30px 20px 30px;
     background: #403AF4;
     font-family: Inter;
     font-style: normal;
@@ -141,7 +163,17 @@ a {
     text-transform: uppercase;
 }
 
+@media only screen and (min-width: 1340px) {
+    .button {
+        padding: 20px 30px 20px 30px;
+    }
+}
+
 @media only screen and (min-width: 1341px) {
+    .button {
+        padding: 20px 110px 20px 110px;
+    }
+
     .menu {
         padding: 42px 121px 0 117px;
     }

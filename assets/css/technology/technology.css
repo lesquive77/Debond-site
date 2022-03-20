@@ -1,3 +1,13 @@
+.sidebyside{
+    margin-top: 800px;
+}
+.debond-table .item {
+    width: 280px;
+}
+
+.debond-table .item  {
+    text-align: left;
+}
 .item .item-top {
     font-family: 'Inter';
     font-style: normal;
@@ -12,74 +22,79 @@
     text-align: left;
 }
 
+#round-left {
+    position: absolute;
+    width: 391px;
+    height: 177.88px;
+    right: -40%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: 0;
+
+}
+
+#round-right {
+    position: absolute;
+    width: 375px;
+    height: 241px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 10;
+}
 
 .eip-container {
     background: #403AF4;
-    height: 930px;
-    width: 100%;
-    position: relative;
+    height: 630px;
+    position: absolute;
     left: 0;
     right: 0;
+    top: 1930px;
+    overflow: hidden;
 }
 
 .eip-container div {
     z-index: 1;
 }
 
-#round-left {
-    position: absolute;
-    width: 637.01px;
-    height: 289.5px;
-    left: 0px;
-    top: 0px;
-    z-index: 0;
-}
-
-#round-right {
-    position: absolute;
-    width: 976px;
-    height: 596px;
-    right: 0px;
-    bottom: 0px;
-    z-index: 0;
-}
-
-.eip-container .button {
+.eip-text .button {
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
+    padding: 20px 10px 20px 10px;
 }
 
 
 .eip-header {
-    margin-top: 28px;
-    margin-bottom: 13px;
+    font-size: 36px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
-    font-size: 58.7446px;
-    line-height: 71px;
-    /* identical to box height */
+    font-size: 36px;
+    line-height: 37px;
+    /* or 103% */
+
+    /* Debond White */
     color: #FFFFFF;
+
 }
 
 .eip-text {
-    position: absolute;
     height: 505px;
-    width: 40%;
-    top: 122px;
-    left: 124px;
+    width: 314px;
+    margin:200px 30px 0px 30px;
     z-index: 1;
 }
 
 .eip-description {
+    /* 📱Body text small • 16pt */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 31px;
-    /* or 157% */
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+
+    /* Debond White */
     color: #FFFFFF;
-    background-color: #403AF4;
+    margin-top:29px;
 }
 
 .introducing-header {
@@ -131,31 +146,48 @@
     top: 22px;
 }
 
-.debond-table .item .item-header{
+.debond-table .item .item-header {
     background: transparent;
     height: 300px;
 }
 
 
-.debond-table .item .item-header img{
+.debond-table .item .item-header img {
     max-width: 227px;
     max-height: 308px;
 }
 
-.table-container{
-    margin-top:200px;
+.table-container {
+    margin-top: 200px;
 }
 
-.table-title{
+.table-title {
     margin-bottom: 45px;
 }
 
+.debond-table .item span {
+    /* 🖥Body text Small•16pt */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.debond-table .item p {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 37px;
+}
 
 @media only screen and (min-width: 725px) and (max-width: 1140px) {
-    #round-right{
+    #round-right {
 
     }
-    #round-left{
+
+    #round-left {
 
     }
 }
@@ -165,4 +197,51 @@
         width: 183.94px;
         height: 195.65px;
     }
+}
+
+@media only screen and (min-width: 1340px) {
+    .eip-description {
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .eip-header {
+        font-size: 58.7446px;
+        line-height: 71px;
+    }
+
+    #round-right {
+        width: 976px;
+        height: 596px;
+    }
+
+    .eip-text {
+        position: absolute;
+        height: 505px;
+        width: 40%;
+        top: 122px;
+        left: 124px;
+        z-index: 1;
+    }
+
+
+    #round-left {
+        position: absolute;
+        width: 391px;
+        height: 177.88px;
+        /*left: 601px;*/
+        top: 2px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        z-index: 0;
+
+    }
+
+    #round-right {
+        position: absolute;
+        width: 482.37px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+
 }

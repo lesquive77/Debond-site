@@ -1,9 +1,9 @@
-- number: "1<span>.</span>"
-  title: "Debond Standard"
-  description: "We have developed the new ERC–3475 to make securities possible on the blockchain. It empowers everyone to create their own bonds and derivatives like futures and options. Each bond or derivative is assigned to a unique algorithm and does not require an additional smart contract."
-- number: "2<span>.</span>"
-  title: "Debond Exchange"
-  description: "It is the marketplace where bonds and derivatives can be traded. It supports all auctions compatible with the ERC–3475 standard. After a bond is released to the market, its price decreases until somebody buys it."
-- number: "3<span>.</span>"
-  title: "Debond Wallet"
-  description: "Debond Wallet <span>is an extension</span> to the regular ERC–20 wallet. It can display  all ERC–3475 assets of a user in one place. No more downloading additional softwares or regenerating private keys!"
+- number: "1<em class='debond-color-font'>.</em>"
+  title: "Debond <br><em class='debond-color-font'>Standard</em>"
+  description: "We have developed the new ERC–3475 to make securities possible on the blockchain. It empowers everyone to <em class='debond-color-font'> create their own bonds and derivatives like futures and options.</em> Each bond or derivative is assigned to a unique algorithm and does not require an additional smart contract."
+- number: "2<em class='debond-color-font'>.</em>"
+  title: "Debond <br><em class='debond-color-font'>Exchange</em>"
+  description: "It is the marketplace where <em class='debond-color-font'> bonds and derivatives can be traded</em>. It supports all auctions compatible with the ERC–3475 standard. After a bond is released to the market, its price decreases until somebody buys it."
+- number: "3<em class='debond-color-font'>.</em>"
+  title: "Debond <br><em class='debond-color-font'>Wallet</em>"
+  description: "Debond Wallet <span>is an extension</span> to the regular ERC–20 wallet. <em class='debond-color-font'> It can display  all ERC–3475 assets of a user in one place.</em> No more downloading additional softwares or regenerating private keys!"
