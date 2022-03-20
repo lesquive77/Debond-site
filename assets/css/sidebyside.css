@@ -1,7 +1,5 @@
 
-.sidebyside {
-    display: flex;
-}
+
 
 .sidebyside div {
     flex: 1;
@@ -13,7 +11,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
-    font-size: 60px;
+    font-size: 36px;
     line-height: 60px;
     color: #FFFFFF;
 }
@@ -22,12 +20,52 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 28px;
     color: #FFFFFF;
 }
 
-.sidebyside div img{
-    width: 415.51px;
-    transform: rotate(75deg);
+.sidebyside div img {
+    width: 100%;
+}
+
+.sidebyside {
+    display: inline-block;
+    position: unset;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 725px) and (max-width: 1340px) {
+    .sidebyside {
+        display: flex;
+        position: relative;
+    }
+    .sidebyside div img {
+        max-width: 100%;
+    }
+
+    .sidebyside .sbs-header {
+        font-size: 36px;
+    }
+
+    .sidebyside .sbs-text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1340px) {
+    .sidebyside {
+        display: flex;
+        position: relative;
+    }
+    .sidebyside .sbs-header {
+        font-size: 60px;
+    }
+    .sidebyside .sbs-text {
+        font-size: 20px;
+    }
 }
