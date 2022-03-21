@@ -1420,8 +1420,7 @@ a {
     }
 
     .advertising-item-box-second .first-title-box p {
-        width: 480px;
-        margin-top: 135px;
+        width: 555px;
     }
 
 
@@ -1439,7 +1438,7 @@ a {
     }
 
     .advertising-item-box-third .first-title-box p {
-        width: 500px;
+        width: 555px;
     }
 
 
@@ -1458,7 +1457,7 @@ a {
     }
 
     .advertising-item-box-fourth .first-title-box p {
-        width: 491px;
+        width: 555px;
         display: block;
     }
 
@@ -1476,7 +1475,7 @@ a {
     }
 
     .advertising-item-box-fifth .first-title-box p {
-        max-width: 520px;
+        max-width: 555px;
         display: block;
         margin-top: 40px;
     }
