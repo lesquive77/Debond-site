@@ -207,6 +207,11 @@
 }
 
 @media only screen and (max-width: 375px) {
+
+    .table-container {
+        margin-top: 10px;
+    }
+
     .sidebyside {
         margin-top: 200px;
     }
