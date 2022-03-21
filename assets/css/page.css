@@ -93,7 +93,7 @@
     .page {
         max-width: 1340px;
         width: 100%;
-        padding: 119px 121px 58px 117px;
+        margin: 119px auto 58px auto;
     }
 
     .page-title {
