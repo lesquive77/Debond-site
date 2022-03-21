@@ -171,23 +171,23 @@
         max-width: 100%;
     }
 
-    @media only screen and (max-width: 375px) {
-
-        .table-container {
-            padding-top: 150px;
-        }
-
-        .debond-table {
-            width: 100%;
-            display: flex;
-            -webkit-flex-wrap: wrap;
-            flex-wrap: wrap;
-            padding-top: 15px;
-            justify-content: center;
-        }
-
-    }
 }
 
 
+@media only screen and (max-width: 375px) {
+
+    .table-container {
+        padding-top: 150px;
+    }
+
+    .debond-table {
+        width: 100%;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-top: 15px;
+        justify-content: center;
+    }
+
+}
 

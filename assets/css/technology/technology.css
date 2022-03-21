@@ -1,3 +1,6 @@
+.table-container .table-title{
+    text-align: left;
+}
 .sidebyside {
     margin-top: 100px;
 }
@@ -89,7 +92,7 @@
 .eip-text {
     height: 505px;
     width: 314px;
-    margin: 200px 30px 0px 30px;
+    margin-top: 200px;
     z-index: 1;
 }
 
@@ -202,6 +205,10 @@
 
 
 @media only screen and (min-width: 376px) and (max-width: 724px) {
+    .page-title p{
+        font-size: 57px;
+    }
+
     .introducing img {
         width: 183px;
         height: 195px;
@@ -261,8 +268,12 @@
 
 
 @media only screen and (min-width: 725px) and (max-width: 1339px) {
+
+    .page-title{
+        padding-bottom: 30px;
+    }
     .eip-container {
-        top: 1000px;
+        top: 1100px;
     }
 
     #round-right {
@@ -328,6 +339,36 @@
 
 
 @media only screen and (min-width: 1340px) {
+
+    .works .item .item-top {
+        font-size: 60px;
+    }
+
+    .technology .debond-table .item p{
+        font-size: 36px;
+        margin:5px 0px 60px 0px;
+    }
+
+    .technology .debond-table .item span{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .eip-container {
+        top:1430px;
+        height: 845px;
+    }
+    .eip{
+        width: 100%;
+    }
+    .eip-text{
+        margin: 280px 30px 0px 30px;
+        background-color: #403AF4;
+    }
+
     .eip-description {
         font-size: 20px;
         line-height: 31px;
@@ -340,36 +381,56 @@
 
     #round-right {
         width: 976px;
-        height: 596px;
-    }
-
-    .eip-text {
-        position: absolute;
-        height: 505px;
-        width: 40%;
-        top: 122px;
-        left: 124px;
-        z-index: 1;
-    }
-
-
-    #round-left {
-        position: absolute;
-        width: 391px;
-        height: 177.88px;
-        /*left: 601px;*/
-        top: 2px;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-        z-index: 0;
-
-    }
-
-    #round-right {
-        position: absolute;
-        width: 482.37px;
         right: 0px;
         bottom: 0px;
         z-index: 0;
+        height: unset;
+    }
+
+
+    .sidebyside {
+        margin-top: 500px;
+    }
+
+    .sidebyside .sbs-header{
+        position: relative;
+        margin-top: 80px;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 60px;
+        text-align: left;
+    }
+    .sidebyside .sbs-text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    .sidebyside  {
+        display: flex;
+        align-items: center;
+    }
+
+    .sbs-text .centered{
+        margin-top:73px;
+    }
+
+    #introducing{
+        width: 397px;
+    }
+
+    #round-left {
+        transform: unset;
+        top:0px;
+        left:0px;
+        margin-left:0px;
+        width:638px;
+        height: unset;
+
     }
 
     .table-container {
@@ -377,10 +438,48 @@
     }
 
     .debond-table .item {
-        width: 280px;
+        width: 360px;
     }
 
+    .page-title span {
+        width: 900px;
+    }
 
+    .page-title {
+        padding-bottom: 67px;
+    }
+
+    .works .item .item-header {
+        height: 308px;
+    }
+
+    .works .item .item-header img{
+        max-height: 308px;
+    }
+
+    .works .item p{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 134.09%;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+
+    .works .item span{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .table-container .table-title {
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .vertical-spaced{
+        margin-top:200px;
+    }
 
 
 
