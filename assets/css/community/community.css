@@ -15,9 +15,6 @@
     background-color: #1B1D29;
 }
 
-.medias .item {
-    height: 340px;
-}
 
 .centered img {
     width: 317px;
@@ -28,6 +25,7 @@
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
+
     line-height: 55px;
     /* or 153% */
     text-align: center;
@@ -37,14 +35,54 @@
     width: 311px;
 }
 
+
 .button {
-    width: 357px;
-    height: 60px;
+    margin-top: 30px;
 }
 
+#governance-img-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 
+.sidebyside {
+    margin-top: 102px;
+    margin-bottom: 30px;
+}
+
+.sidebyside .sbs-header {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 37px;
+    margin-bottom: 20px;
+}
+.sidebyside .sbs-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#participate span{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    /* or 112% */
+    text-align: center;
+    letter-spacing: -0.41759px;
+}
+#participate{
+    margin-top:70px;
+}
+
+.page-title {
+    margin-bottom: 137px;
+}
 
 @media only screen and (min-width: 376px) and (max-width: 725px) {
+
+
+
     .centered span {
         font-family: 'Inter';
         font-style: normal;
@@ -56,10 +94,23 @@
         letter-spacing: -0.41759px;
     }
 
+    .medias .item {
+        height: unset;
+    }
+
 
 }
 
 @media only screen and (min-width: 725px) and (max-width: 1340px) {
+
+    .sidebyside{
+        display:flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    #governance-text-div{
+        width: 372px;
+    }
 
     .sidebyside div img {
         width: 214px;
@@ -67,15 +118,8 @@
         top: 160px;
         right: 35px;
         position: absolute;
-
     }
 
-    .sidebyside div img {
-        width: 214px;
-        right: 35px;
-        top: 140px;
-        position: absolute;
-    }
 
     .centered img {
         width: 530px;
@@ -91,6 +135,50 @@
 }
 
 @media only screen and (min-width: 1340px) {
+    .sidebyside{
+        display:flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-bottom: 330px;
+    }
+    #governance-text-div{
+        width: 647px;
+    }
+
+    .sidebyside div .sbs-header{
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .sidebyside div .sbs-text{
+        margin-top:50px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    #participate span{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 55px;
+    }
+
+
+    .sidebyside div img {
+        width: 415px;
+        height: unset;
+        top: 100px;
+        right: 35px;
+        position: absolute;
+    }
+
+    .page-title {
+        margin-bottom: unset;
+    }
+
+    .medias .item {
+        height: 340px;
+    }
+
     .sidebyside div img {
         width: 415px;
         right: 120px
@@ -101,7 +189,7 @@
         height: 627px;
     }
 
-    .centered span{
+    .centered span {
         width: 824px;
         font-size: 36px;
         line-height: 55px;

@@ -171,6 +171,7 @@ a {
 @media only screen and (min-width: 1340px) {
     .button {
         padding: 20px 30px 20px 30px;
+        font-size: 18px;
     }
 }
 

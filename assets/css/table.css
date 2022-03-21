@@ -107,11 +107,12 @@
         font-family: 'Inter';
         font-style: normal;
         font-weight: 800;
-        font-size: 36px;
-        line-height: 37px;
+        font-size: 60px;
+        line-height: 60px;
         /* or 103% */
         text-align: center;
         color: #FFFFFF;
+        margin-bottom: 15px;
     }
 
     .debond-table {
