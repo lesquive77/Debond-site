@@ -39,11 +39,17 @@
     display: block;
 }
 
+.page-title {
+    padding-bottom: 25px;
+}
+
+
 @media only screen and (max-width: 375px) {
     .page {
         max-width: 375px;
         padding: 112px 20px 75px 20px;
     }
+
 }
 
 
@@ -53,9 +59,7 @@
        padding: 112px 30px 75px 30px;
     }
 
-    .page-title {
-        padding-bottom: 25px;
-    }
+
 }
 
 
