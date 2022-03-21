@@ -207,6 +207,9 @@
 }
 
 @media only screen and (max-width: 375px) {
+    .page-title p {
+        font-size: 57px;
+    }
 
     .table-container {
         margin-top: 10px;
