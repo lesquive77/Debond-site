@@ -10,12 +10,12 @@ body {
     margin: 0px;
 }
 
-em{
- font-style: unset;
+em {
+    font-style: unset;
 }
 
-.debond-color-font{
-    color: #403AF4!important;
+.debond-color-font {
+    color: #403AF4 !important;
 }
 
 p {
@@ -55,6 +55,7 @@ a {
         font-size: 36px;
         line-height: 55px;
     }
+
     .vertical-spaced {
         margin-top: 180px;
         margin-bottom: 27px;
@@ -152,6 +153,7 @@ a {
 
 
 .button {
+    display: block;
     padding: 20px 30px 20px 30px;
     background: #403AF4;
     font-family: Inter;

@@ -2,35 +2,44 @@
   name: "Exnetwork"
   description: "Exnetwork Capital was founded in 2018 as a means to democratize access to opportunities to support blockchain projects."
   path: "assets/images/investors/exnetwork.png"
+  link: "https://exnetworkcapital.com"
 -
   name: "Wave Capital"
   description: "An early-stage venture firm focused on marketplace businesses"
   path: "assets/images/investors/wave.png"
+  link: "http://wave.capital"
 -
   name: "Hot Dao"
   description: "Investor, VC fund & Incubator dedicated to the development of decentralized projects."
   path: "assets/images/investors/hotdao.png"
+  link: "https://www.hotbit.io/"
 -
   name: "Lotus Capital"
   description: "The Leading Crypto Fund in the Middle East, An ecosystem of entrepreneurs, engineers, researchers and academics"
   path: "assets/images/investors/lotus.png"
+  link: "https://www.lotuscapital.me"
 -
   name: "CryptoDormFund"
   description: "The Leading College Crypto Network"
   path: "assets/images/investors/cryptodorm.png"
+  link: "/#"
 -
   name: "Collin Star investment"
   description: "In early 2015. Ryan and other co-founders of the firm believed they could set a new benchmark for asset management fund performance through investment in Blockchain technology."
   path: "assets/images/investors/collin.png"
+  link: "http://www.collinstar.com/"
 -
   name: "Bixin venture"
   description: "Bixin Ventures invests in early-stage infrastructure projects that cultivate and facilitate mass adoption of open finance through permissionless and decentralized networks."
   path: "assets/images/investors/bixin.png"
+  link: "https://bixinvc.com/"
 -
   name: "Water drip capital"
   description: "Waterdrip Capital was founded in 2017 by the most forward-thinking Chinese blockchain pioneers. It is an international investment institution focusing on blockchain industry."
   path: "assets/images/investors/waterdrip.png"
+  link: "http://waterdrip.io/"
 -
   name: "Spark Digital Capital"
   description: "A research focused crypto fund that invests in the future of blockchain and tech"
   path: "assets/images/investors/spark.png"
+  link: "https://sparkdigitalcapital.com/"
