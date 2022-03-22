@@ -7,20 +7,26 @@ custom_css:
 - community/community
 ---
 <div class="page">
-    <div class="page-title">
+    <div class="page-title fit-80-screen">
         <p>Community</p>
         <span>Join a community that believes in  a fairer, more transparent, and more secure decentralized finance</span>
     </div>
-    <div class="table-container">
-        <div class="debond-table medias">
-            {% for media in site.data.medias %}
-            {% include mediaItem.html name=media.name description=media.description path=media.path link=media.link %}
-            {% endfor %}
+
+    <div class="fit-screen">
+
+        <div class="table-container">
+            <div class="debond-table medias">
+                {% for media in site.data.medias %}
+                {% include mediaItem.html name=media.name description=media.description path=media.path link=media.link
+                %}
+                {% endfor %}
+            </div>
+            <div class="centered">
+                <a class="button" href="mailto: {{site.mail}}">Contact us</a>
+            </div>
         </div>
     </div>
-    <div class="centered">
-        <a class="button" href="mailto: {{site.mail}}">Contact us</a>
-    </div>
+
     <div class="sidebyside">
         <div id="governance-img-div">
             <img src="assets/images/governance/governance.png"/>
@@ -37,19 +43,20 @@ custom_css:
                 withdrawals, and executions about Debond and its funds on the chain.
             </div>
         </div>
-
     </div>
 
-    <div class="centered">
-        <img src="assets/images/governance/governance2.png">
-    </div>
+    <div class="fit-screen">
+        <div class="centered">
+            <img src="assets/images/governance/governance2.png">
+        </div>
 
-    <div id="participate" class="centered">
+        <div id="participate" class="centered">
         <span>Participate in Debond’s development, let’s create the next-level-DeFi standard together!
         </span>
-    </div>
+        </div>
 
-    <div class="centered">
-        <a class="button" href={{site.webapp_link}}> Launch our app</a>
+        <div class="centered">
+            <a class="button" href={{site.webapp_link}}> Launch our app</a>
+        </div>
     </div>
 </div>

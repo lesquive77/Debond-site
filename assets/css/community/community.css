@@ -119,13 +119,17 @@
         margin-bottom: 137px;
     }
 
+    .sidebyside{
+        margin-top: 30vh;
+    }
+
 }
 
 @media only screen and (min-width: 725px) and (max-width: 1340px) {
 
     .sidebyside {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
         width: 100%;
     }
 
@@ -138,7 +142,7 @@
         height: 266px;
         top: 160px;
         right: 35px;
-        position: absolute;
+        /*position: absolute;*/
     }
 
 
