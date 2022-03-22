@@ -208,9 +208,10 @@
 
 @media only screen and (max-width: 375px) {
 
-    .technology .debond-table .item{
+    .technology .debond-table .item,.works item{
         width:285px;
     }
+    
     .page-title p {
         font-size: 57px;
     }
