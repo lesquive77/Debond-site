@@ -851,7 +851,16 @@ a {
     }
 
     .footer-recourse-box {
-        width: 343px;
+        width: 183px;
+    }
+
+    .footer-recourse-img-box img {
+        max-width: 22px;
+        max-height: 22px;
+    }
+
+    .footer-recourse-img-box {
+        margin-top:10px;
     }
 }
 
