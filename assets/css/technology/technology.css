@@ -207,6 +207,10 @@
 }
 
 @media only screen and (max-width: 375px) {
+
+    .technology .debond-table .item{
+        width:285px;
+    }
     .page-title p {
         font-size: 57px;
     }
@@ -229,7 +233,7 @@
 
     .eip-container {
         height: 700px;
-        top: 380vh;
+        top: 315vh;
     }
     .works-container{
         margin-top:20vh;
