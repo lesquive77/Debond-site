@@ -196,6 +196,14 @@
     display: none;
 }
 
+.advertising-div{
+    margin-top:200px;
+}
+
+.join-us-box .button{
+    margin-top:20px;
+}
+
 @media only screen and (max-width: 375px) {
 
     .team-page{
@@ -206,9 +214,6 @@
     .out-advisors-box{
         padding-top: 150px;
     }
-
-
-
 
     .out-advisors-box .box{
         width: 100%;
@@ -300,12 +305,12 @@
     }
 
     .team-page-title{
-        padding-bottom: 100px;
+        /*padding-bottom: 100px;*/
 
     }
 
     .out-advisors-box{
-        padding-top: 87px;
+        /*padding-top: 87px;*/
     }
 
     .out-advisors-box .box{
@@ -367,13 +372,13 @@
     }
 
     .out-advisors-box{
-        padding-top: 120px;
+        /*padding-top: 120px;*/
     }
     .team-page-title{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 200px;
+        /*padding-bottom: 200px;*/
 
     }
     .team-page-title p{
@@ -477,7 +482,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 250px;
+        /*padding-bottom: 250px;*/
     }
     .team-page-title p{
         font-weight: 800;
@@ -495,7 +500,7 @@
         display: none;
     }
     .out-advisors-box {
-        margin-top: 150px;
+        /*margin-top: 150px;*/
     }
 
     .out-advisors-box .title{

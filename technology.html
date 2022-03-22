@@ -8,16 +8,16 @@ custom_css:
 ---
 
 <div class="page">
-    <div class="page-title">
+    <div class="page-title fit-80-screen">
         <p>Technology</p>
         <span>Debond’s new ERC–3475 standard brings more  security and stability to decentralised finance (DeFi)</span>
-    </div>
-    <div class="centered">
-        <a class="button" href="mailto: {{site.mail}}">Contact us</a>
+        <div class="centered">
+            <a class="button" href="mailto: {{site.mail}}">Contact us</a>
+        </div>
     </div>
 
 
-    <div class="table-container technology">
+    <div class="table-container technology fit-screen">
         <div class="debond-table">
             {% for tech in site.data.technology %}
             {% include technoItem.html name=tech.title description=tech.description top=tech.number %}
@@ -30,7 +30,7 @@ custom_css:
         <img id="round-right" src="assets/images/eip/round-right.png"/>
     </div>
 
-    <div class="eip">
+    <div class="eip fit-screen">
         <div class="eip-text">
 
             <div class="eip-header">EIP–3475</div>
@@ -45,27 +45,29 @@ custom_css:
             <a class="button" href={{site.documentation}}>Download the documentation</a>
         </div>
     </div>
-
-    <div class="sidebyside">
-        <div>
-            <img id="introducing" src="assets/images/eip/introducing.png"/>
-        </div>
-        <div>
-            <div class="sbs-header">Introducing <br/> Debond</div>
-            <div class="sbs-text">
-                DeFi markets are extremely volatile today. In TradFi, bonds bring more stability to the system thanks to
-                their predictable yields.
-                <br/><br/>
-                We have created the ERC–3475 standard to make investments safer and more stable in DeFi.
-                <div class="centered">
-                    <a class="button" href={{site.webapp_link}}>Launch our webapp</a>
+    <div class="fit-screen">
+        <div class="sidebyside">
+            <div>
+                <img id="introducing" src="assets/images/eip/introducing.png"/>
+            </div>
+            <div>
+                <div class="sbs-header">Introducing <br/> Debond</div>
+                <div class="sbs-text">
+                    DeFi markets are extremely volatile today. In TradFi, bonds bring more stability to the system
+                    thanks to
+                    their predictable yields.
+                    <br/><br/>
+                    We have created the ERC–3475 standard to make investments safer and more stable in DeFi.
+                    <div class="centered">
+                        <a class="button" href={{site.webapp_link}}>Launch our webapp</a>
+                    </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     </div>
 
-    <div class="table-container">
+    <div class="table-container works-container fit-screen">
         <div class="table-title">How it works</div>
         <div class="debond-table works">
             {% for work in site.data.works %}
@@ -73,12 +75,13 @@ custom_css:
             {% endfor %}
         </div>
     </div>
-    <div class="centered debondh2 vertical-spaced">
+    <div class="centered debondh2 fit-50-screen">
         Need financing without losing capital? <br/>
         Become a Debond issuer
+        <div class="centered">
+            <a class="button" href={{site.webapp_link}}> Launch our app</a>
+        </div>
     </div>
 
-    <div class="centered">
-        <a class="button" href={{site.webapp_link}}> Launch our app</a>
-    </div>
+
 </div>

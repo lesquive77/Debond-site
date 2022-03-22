@@ -14,6 +14,25 @@ em {
     font-style: unset;
 }
 
+.fit-screen{
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.fit-80-screen{
+    min-height: 80vh;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.fit-50-screen{
+    min-height: 50vh;
+    flex-direction:column;
+    justify-content: center;
+}
+
 .debond-color-font {
     color: #403AF4 !important;
 }
@@ -30,6 +49,7 @@ a {
 .centered {
     justify-content: center;
     display: flex;
+    margin: 20px 0px 20px 0px;
 }
 
 .debondh2 {
@@ -47,6 +67,11 @@ a {
     color: #FFFFFF;
 
 }
+
+.advertising-item-box-fifth .centered .button{
+    margin-top: 20px;
+}
+
 
 @media only screen and (min-width: 1340px) {
 
@@ -948,7 +973,7 @@ a {
 
 @media only screen and (min-width: 376px) and (max-width: 550px) {
     .footer {
-        padding: 16px 20px 26px 20px;
+        padding: 100px 20px 26px 20px;
         height: auto;
     }
 
@@ -1204,7 +1229,7 @@ a {
     display: flex;
     justify-content: space-between;
     text-align: right;
-    margin-top: 200px;
+    /*margin-top: 200px;*/
 }
 
 .advertising-item-box-second .first-title-box p {
@@ -1238,7 +1263,7 @@ a {
     display: flex;
     justify-content: space-between;
     text-align: right;
-    margin-top: 205px;
+    /*margin-top: 205px;*/
 }
 
 .advertising-item-box-fourth .first-title-box p {
@@ -1256,7 +1281,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 372px;
+    /*margin-top: 372px;*/
 }
 
 .advertising-item-box-fifth .first-title-box p {
@@ -1416,7 +1441,7 @@ a {
         display: flex;
         justify-content: space-between;
         text-align: right;
-        margin-top: 200px;
+        /*margin-top: 200px;*/
     }
 
     .advertising-item-box-second .first-title-box p {
@@ -1434,7 +1459,7 @@ a {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        margin-top: 259px;
+        /*margin-top: 259px;*/
     }
 
     .advertising-item-box-third .first-title-box p {
@@ -1453,7 +1478,7 @@ a {
         display: flex;
         justify-content: space-between;
         text-align: right;
-        margin-top: 205px;
+        /*margin-top: 205px;*/
     }
 
     .advertising-item-box-fourth .first-title-box p {
@@ -1471,7 +1496,7 @@ a {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        margin-top: 372px;
+        /*margin-top: 372px;*/
     }
 
     .advertising-item-box-fifth .first-title-box p {
@@ -1532,7 +1557,7 @@ a {
         display: flex;
         justify-content: space-between;
         text-align: right;
-        margin-top: 200px;
+        /*margin-top: 200px;*/
     }
 
     .advertising-item-box-second .first-title-box p {
@@ -1551,7 +1576,7 @@ a {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        margin-top: 259px;
+        /*margin-top: 259px;*/
     }
 
     .advertising-item-box-third .first-title-box p {
@@ -1570,7 +1595,7 @@ a {
         display: flex;
         justify-content: space-between;
         text-align: right;
-        margin-top: 205px;
+        /*margin-top: 205px;*/
     }
 
     .advertising-item-box-fourth .first-title-box p {
@@ -1588,7 +1613,7 @@ a {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        margin-top: 372px;
+        /*margin-top: 372px;*/
     }
 
     .advertising-item-box-fifth .first-title-box p {

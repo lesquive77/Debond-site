@@ -3,7 +3,7 @@
 }
 
 .sidebyside {
-    margin-top: 100px;
+    margin-top:100px;
 }
 
 .debond-table .item {
@@ -45,7 +45,7 @@
     height: 241px;
     bottom: 0px;
     right: 0px;
-    z-index: 10;
+    /*z-index: 10;*/
 }
 
 
@@ -178,7 +178,7 @@
 }
 
 .table-container {
-    margin-top: 160px;
+    /*margin-top: 160px;*/
 }
 
 .works img {
@@ -229,7 +229,11 @@
 
     .eip-container {
         height: 700px;
-        top: 2100px;
+        top: 290vh;
+    }
+    .works-container{
+        margin-top:20vh;
+        margin-bottom: 20vh;
     }
 }
 
@@ -290,7 +294,11 @@
     }
 
     .eip-container {
-        top: 1730px;
+        top: 230vh;
+    }
+    .works-container{
+        margin-top:20vh;
+        margin-bottom: 20vh;
     }
 
 }
@@ -303,11 +311,22 @@
     }
 
     .eip-container {
-        top: 1100px;
+        /*top: 1100px;*/
+        top: 220vh;
     }
 
     #round-right {
 
+    }
+
+    .table-container {
+        width: 100%;
+    }
+
+    .sidebyside .sbs-header, .sidebyside .sbs-text {
+        text-align: left;
+        width: 289px;
+        margin-left: 100px;
     }
 
     #round-left {
@@ -371,6 +390,10 @@
 
 @media only screen and (min-width: 1340px) {
 
+    .sidebyside {
+        margin-top:40vh;
+    }
+
     .works .item .item-top {
         font-size: 60px;
     }
@@ -389,7 +412,7 @@
     }
 
     .eip-container {
-        top: 1430px;
+        top: 220vh;
         height: 845px;
     }
 
@@ -422,7 +445,7 @@
 
 
     .sidebyside {
-        margin-top: 500px;
+        /*margin-top: 500px;*/
     }
 
     .sidebyside .sbs-header {
@@ -468,11 +491,11 @@
     }
 
     .table-container {
-        margin-top: 200px;
+        /*margin-top: 200px;*/
     }
 
     .debond-table .item {
-        width: 360px;
+        width: 365px;
     }
 
     .page-title span {
@@ -480,7 +503,7 @@
     }
 
     .page-title {
-        padding-bottom: 67px;
+        /*padding-bottom: 67px;*/
     }
 
     .works .item .item-header {
