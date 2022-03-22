@@ -1,3 +1,19 @@
+.container-fluid{
+    background-color: #403AF4;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eip-page{
+    background-color: transparent;
+    width: 100%;
+
+}
+
 .table-container .table-title {
     text-align: left;
 }
@@ -33,7 +49,9 @@
     position: absolute;
     width: 391px;
     height: 177.88px;
-    margin-left: 60%;
+    /*margin-left: 60%;*/
+    right: -150px;
+    top:0;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     z-index: 0;
 
@@ -95,7 +113,7 @@
 .eip-text {
     height: 505px;
     width: 314px;
-    margin-top: 200px;
+    /*margin-top: 200px;*/
     z-index: 1;
 }
 
@@ -208,6 +226,10 @@
 
 @media only screen and (max-width: 375px) {
 
+    .container-fluid{
+        height: 630px;
+    }
+
     .technology .debond-table .item,.works .item{
         width:285px;
     }
@@ -243,6 +265,11 @@
 }
 
 @media only screen and (min-width: 376px) and (max-width: 724px) {
+
+    .container-fluid{
+        height: 630px;
+    }
+
     .page-title p {
         font-size: 57px;
     }
@@ -257,7 +284,7 @@
     }
 
     .eip-text {
-        margin-top: 300px;
+        /*margin-top: 300px;*/
     }
 
     .technology .debond-table .item p {
@@ -310,6 +337,9 @@
 
 
 @media only screen and (min-width: 725px) and (max-width: 1339px) {
+    .container-fluid{
+        height: 513px;
+    }
 
     .page-title {
         padding-bottom: 30px;
@@ -394,6 +424,10 @@
 
 
 @media only screen and (min-width: 1340px) {
+    .container-fluid{
+        height: 840px;
+    }
+
 
     .sidebyside {
         margin-top:40vh;
@@ -426,7 +460,7 @@
     }
 
     .eip-text {
-        margin: 280px 30px 0px 30px;
+        /*margin: 280px 30px 0px 30px;*/
         background-color: #403AF4;
     }
 
