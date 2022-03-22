@@ -1,0 +1,9 @@
+@media only screen and (min-width: 725px) and (max-width: 1340px) {
+    .advertising-box p{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 37px;
+        width: 423px;
+    }
+
+}
