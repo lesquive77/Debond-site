@@ -8,6 +8,11 @@
     margin-top: 100px;
 }
 
+.debond-table .item .item-header img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
 @media only screen and (max-width: 375px) {
     .table-container {
         margin-top: 10px;
