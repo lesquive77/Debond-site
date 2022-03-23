@@ -1,26 +1,26 @@
 -
   name: "Hot Dao"
-  description: "Investor, VC fund & Incubator dedicated to the development of decentralized projects."
+  description: "Investor, VC fund & incubator dedicated to the development of decentralised projects."
   path: "assets/images/about/partners/hotdao.png"
   link: "https://www.hotbit.io/"
 -
   name: "Spark Digital Capital"
-  description: "A research focused crypto fund that invests in the future of blockchain and tech"
+  description: "A research-focused crypto fund that invests in the future of blockchain and tech."
   path: "assets/images/about/partners/spark.png"
   link: "https://sparkdigitalcapital.com/"
 -
-  name: "Collin Star investment"
-  description: "In early 2015. Ryan and other co-founders of the firm believed they could set a new benchmark for asset management fund performance through investment in Blockchain technology."
+  name: "Collin Star Investment"
+  description: "In early 2015, Ryan and other co-founders of the firm believed they could set a new benchmark for asset management fund performance through investment in blockchain technology."
   path: "assets/images/about/partners/collin.png"
   link: "http://www.collinstar.com/"
 -
-  name: "Bixin venture"
-  description: "Bixin Ventures invests in early-stage infrastructure projects that cultivate and facilitate mass adoption of open finance through permissionless and decentralized networks."
+  name: "Bixin Venture"
+  description: "Bixin Ventures invests in early-stage infrastructure projects that cultivate and facilitate mass adoption of open finance through permissionless and decentralised networks."
   path: "assets/images/about/partners/bixin.png"
   link: "https://bixinvc.com/"
 -
-  name: "Water drip capital"
-  description: "Waterdrip Capital was founded in 2017 by the most forward-thinking Chinese blockchain pioneers. It is an international investment institution focusing on blockchain industry."
+  name: "Water Drip Capital"
+  description: "Waterdrip Capital was founded in 2017 by the most forward-thinking Chinese blockchain pioneers. It is an international investment institution focusing on the blockchain industry."
   path: "assets/images/about/partners/waterdrip.png"
   link: "http://waterdrip.io/"
 -
@@ -34,7 +34,7 @@
   path: "assets/images/about/partners/cspdao.png"
   link: "https://cspdao.network/"
 -
-  name: "HYPE PARTNER"
+  name: "HYPE PARTNERS"
   description: "Hype is the leading community management and marketing agency  for blockchain organisations."
   path: "assets/images/about/partners/hype.png"
   link: "https://www.hype.partners/"
