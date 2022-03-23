@@ -53,19 +53,17 @@
 }
 
 
-@media only screen and (min-width: 376px) and (max-width: 725px) {
+@media only screen and (min-width: 376px) and (max-width: 768px) {
     .page {
-        max-width: 375px;
+        width: 375px;
        padding: 112px 30px 75px 30px;
     }
-
-
 }
 
 
-@media only screen and (min-width: 725px) and (max-width: 1340px) {
+@media only screen and (min-width: 768px) and (max-width: 1340px) {
     .page {
-        max-width: 700px;
+        width: 768px;
         padding: 50px 48px 73px 48px;
     }
 
