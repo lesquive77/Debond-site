@@ -246,7 +246,7 @@ a {
 
     .menu-home img {
         width: 222.6px;
-        height: 55.33px;
+        /*height: 55.33px;*/
     }
 
     .menu-home .menu-container {
@@ -307,7 +307,7 @@ a {
 
     .menu-home img {
         width: 222.6px;
-        height: 55.33px;
+        /*height: 55.33px;*/
         margin-left: 20px;
     }
 
@@ -354,7 +354,7 @@ a {
 
     .menu-home img {
         width: 149.35px;
-        height: 37.13px;
+        /*height: 37.13px;*/
         margin-left: 20px;
     }
 
@@ -468,6 +468,11 @@ a {
         height: 23px;
         margin-top: 15px;
     }
+
+    .menu-home img {
+        width: 148px;
+        margin-left: 0px;
+    }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 550px) {
@@ -482,7 +487,7 @@ a {
 
     .menu-home img {
         width: 152px;
-        height: 38px;
+        /*height: 38px;*/
         margin-left: 0px;
     }
 
@@ -557,7 +562,7 @@ a {
 
     .menu-home img {
         width: 151.25px;
-        height: 37.6px;
+        /*height: 37.6px;*/
     }
 
     .menu .menu-burger img {
