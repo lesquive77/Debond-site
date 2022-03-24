@@ -1930,7 +1930,7 @@ a {
 
     .advertising-item-box-second {
         flex-direction: row-reverse;
-        margin-top: 125px;
+        /*margin-top: 125px;*/
     }
 
     .advertising-item-box-second .first-title-box p {
@@ -1950,7 +1950,7 @@ a {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        margin-top: 157px;
+        /*margin-top: 157px;*/
     }
 
     .advertising-item-box-third .first-title-box p {
@@ -1968,7 +1968,7 @@ a {
         flex-direction: row-reverse;
         justify-content: space-between;
         text-align: right;
-        margin-top: 101px;
+        /*margin-top: 101px;*/
     }
 
     .advertising-item-box-fourth .first-title-box p {
@@ -1986,7 +1986,7 @@ a {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        margin-top: 235px;
+        /*margin-top: 235px;*/
     }
 
     .advertising-item-box-fifth .first-title-box p {
@@ -2102,7 +2102,7 @@ a {
 
     .advertising-item-box-second {
         flex-direction: row-reverse;
-        margin-top: 125px;
+        /*margin-top: 125px;*/
     }
 
     .advertising-item-box-second .first-title-box p {
@@ -2122,7 +2122,7 @@ a {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        margin-top: 157px;
+        /*margin-top: 157px;*/
     }
 
     .advertising-item-box-third .first-title-box p {
@@ -2140,7 +2140,7 @@ a {
         flex-direction: row-reverse;
         justify-content: space-between;
         text-align: right;
-        margin-top: 101px;
+        /*margin-top: 101px;*/
     }
 
     .advertising-item-box-fourth .first-title-box p {
@@ -2158,7 +2158,7 @@ a {
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin-top: 135px;
+        /*margin-top: 135px;*/
     }
 
     .advertising-item-box-fifth .first-title-box p {

@@ -69,7 +69,7 @@
     box-sizing: content-box;
 }
 
-@media only screen and (min-width: 376px) and (max-width: 725px) {
+@media only screen and (min-width: 376px) and (max-width: 767px) {
     .debond-table {
         width: 100%;
         display: flex;
@@ -85,7 +85,7 @@
 }
 
 
-@media only screen and (min-width: 725px) and (max-width: 1340px) {
+@media only screen and (min-width: 768px) and (max-width: 1340px) {
     .table-container{
         width: 95%;
     }
@@ -99,6 +99,13 @@
 
     .debond-table .item .item-header img {
         max-height: 68px;
+    }
+    .debond-table{
+        display: flex;
+        width: 100%;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 }
 
