@@ -10,12 +10,20 @@
 .page-title {
     width: 100%;
     text-align: center;
+    /*margin-bottom: 40vh;*/
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*margin-top:20vh;*/
+    /*align-items: center;*/
+    height: 90vh;
 }
 
-.page-title p {
+.page-title2{
+    margin-bottom: 30vh;
+
+}
+.page-title .title-header {
+    margin-top: 10vh;
     display: block;
     font-family: Inter;
     font-style: normal;
@@ -45,6 +53,13 @@
 
 
 @media only screen and (max-width: 375px) {
+    .page-title {
+        height: 80vh;
+    }
+    .page-title .title-header {
+        margin-top: 20vh;
+    }
+
     .page {
         max-width: 375px;
         padding: 112px 20px 75px 20px;
@@ -54,6 +69,13 @@
 
 
 @media only screen and (min-width: 376px) and (max-width: 768px) {
+    .page-title {
+        height: 80vh;
+    }
+    .page-title .title-header {
+        margin-top: 20vh;
+    }
+
     .page {
         width: 375px;
        padding: 112px 30px 75px 30px;
@@ -68,14 +90,15 @@
     }
 
     .page-title {
-        /*display: flex;
+        display: flex;
         flex-direction: column;
-        align-items: center;*/
-        padding-bottom: 200px;
+        align-items: center;
+        /*padding-bottom: 200px;*/
 
     }
 
-    .page-title p {
+    .page-title .title-header {
+        margin-top: 25vh;
         font-weight: 800;
         font-size: 80px;
         line-height: 134%;
@@ -105,7 +128,7 @@
         /*padding-bottom: 250px;*/
     }
 
-    .page-title p {
+    .page-title .title-header {
         font-weight: 800;
         font-size: 120px;
         line-height: 134.09%;

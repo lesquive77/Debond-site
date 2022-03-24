@@ -8,16 +8,16 @@ custom_css:
 ---
 
 <div class="page">
-    <div class="page-title fit-80-screen">
-        <p>Technology</p>
-        <span>D/bond’s new ERC–3475 standard brings more  security and stability to decentralised finance (DeFi)</span>
+    <div class="page-title">
+        <p class="title-header">Technology</p>
+        <span class="title-text">D/bond’s new ERC–3475 standard brings more  security and stability to decentralised finance (DeFi)</span>
         <div class="centered">
             <a class="button" href="mailto: {{site.mail}}">Contact us</a>
         </div>
     </div>
 
 
-    <div class="table-container technology fit-screen">
+    <div class="table-container technology fit-screen-top">
         <div class="debond-table">
             {% for tech in site.data.technology %}
             {% include technoItem.html name=tech.title description=tech.description top=tech.number %}
@@ -49,8 +49,8 @@ custom_css:
         </div>
     </div>
 </div>
-<div class="page">
-    <div class="fit-screen">
+<div class="page second-page">
+    <div class="fit-screen-top">
         <div class="sidebyside">
             <div>
                 <img id="introducing" src="assets/images/eip/introducing.png"/>
@@ -71,22 +71,21 @@ custom_css:
 
         </div>
     </div>
-
-    <div class="table-container works-container fit-screen">
-        <div class="table-title">How it works</div>
-        <div class="debond-table works">
-            {% for work in site.data.works %}
-            {% include mediaItem.html name=work.name description=work.description path=work.path %}
-            {% endfor %}
+    <div class="fit-screen">
+        <div class="table-container works-container">
+            <div class="table-title">How it works</div>
+            <div class="debond-table works">
+                {% for work in site.data.works %}
+                {% include mediaItem.html name=work.name description=work.description path=work.path %}
+                {% endfor %}
+            </div>
         </div>
     </div>
-    <div class="centered debondh2 fit-50-screen">
+    <div class="centered debondh2 fit-screen-bottom" style="display: block">
         Need financing without losing capital? <br/>
         Become a Debond issuer
         <div class="centered">
             <a class="button" href={{site.webapp_link}}> Launch our app</a>
         </div>
     </div>
-
-
 </div>

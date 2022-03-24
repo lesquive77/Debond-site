@@ -6,9 +6,9 @@ custom_css:
 - about/about
 ---
 <div class="page">
-    <div class="page-title fit-80-screen">
-        <p>About</p>
-        <span>D/bond Protocol is supported by accomplished partners, <br/>
+    <div class="page-title ">
+        <p class="title-header">About</p>
+        <span class="title-text">D/bond Protocol is supported by accomplished partners, <br/>
             committed as we are to building a fairer and more stable DeFi.</span>
         <div class="centered">
             <a class="button" href={{site.pitch}}>Pitch deck</a>
@@ -18,23 +18,25 @@ custom_css:
     <div class="centered video">
         <img src={{"assets/images/about/video.png"}}/>
     </div>
-    <div class="table-container investors">
-        <div class="table-title">Partners</div>
-        <div class="debond-table">
-            {% for partner in site.data.partners %}
-            {% include partnersItem.html name=partner.name description=partner.description path=partner.path
-            link=partner.link %}
-            {% endfor %}
+    <div class="fit-screen">
+        <div class="table-container investors">
+            <div class="table-title">Partners</div>
+            <div class="debond-table">
+                {% for partner in site.data.partners %}
+                {% include partnersItem.html name=partner.name description=partner.description path=partner.path
+                link=partner.link %}
+                {% endfor %}
+            </div>
         </div>
     </div>
-
-    <div class="table-container press">
-        <div class="table-title">Press</div>
-        <div class="debond-table">
-            {% for pressItem in site.data.press %}
-            {% include pressItem.html path=pressItem.path link=pressItem.link %}
-            {% endfor %}
+    <div class="fit-screen-bottom">
+        <div class="table-container press">
+            <div class="table-title">Press</div>
+            <div class="debond-table">
+                {% for pressItem in site.data.press %}
+                {% include pressItem.html path=pressItem.path link=pressItem.link %}
+                {% endfor %}
+            </div>
         </div>
-
     </div>
 </div>

@@ -1,4 +1,9 @@
-.container-fluid{
+.second-page {
+    margin-top: 0px;
+    padding-top:0px ;
+}
+
+.container-fluid {
     background-color: #403AF4;
     position: relative;
     display: flex;
@@ -8,9 +13,9 @@
     align-items: center;
 }
 
-.eip-page{
+.eip-page {
     background-color: transparent;
-    width: 100%;
+    /*width: 100%;*/
 
 }
 
@@ -19,7 +24,7 @@
 }
 
 .sidebyside {
-    margin-top:100px;
+    margin-top: 100px;
 }
 
 .debond-table .item {
@@ -51,7 +56,7 @@
     height: 177.88px;
     /*margin-left: 60%;*/
     right: -150px;
-    top:0;
+    top: 0;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     z-index: 0;
 
@@ -195,6 +200,8 @@
     max-height: 308px;
 }
 
+
+
 .table-container {
     /*margin-top: 160px;*/
 }
@@ -226,15 +233,15 @@
 
 @media only screen and (max-width: 375px) {
 
-    .container-fluid{
+    .container-fluid {
         height: 630px;
     }
 
-    .technology .debond-table .item,.works .item{
-        width:285px;
+    .technology .debond-table .item, .works .item {
+        width: 285px;
     }
 
-    .page-title p {
+    .page-title .title-header {
         font-size: 57px;
     }
 
@@ -243,14 +250,14 @@
     }
 
     .sidebyside {
-        margin-top: 200px;
+        /*margin-top: 200px;*/
     }
 
-    .works .item p{
+    .works .item p {
         font-size: 30px;
     }
 
-    .technology{
+    .technology {
         margin-top: 10px;
     }
 
@@ -258,19 +265,23 @@
         height: 700px;
         top: 315vh;
     }
-    .works-container{
-        margin-top:20vh;
-        margin-bottom: 20vh;
+
+    .works-container {
+        /*margin-top: 20vh;
+        margin-bottom: 20vh;*/
+    }
+    .eip-page {
+        margin-top: 15vh;
     }
 }
 
-@media only screen and (min-width: 376px) and (max-width: 724px) {
+@media only screen and (min-width: 376px) and (max-width: 767px) {
 
-    .container-fluid{
+    .container-fluid {
         height: 630px;
     }
 
-    .page-title p {
+    .page-title .title-header {
         font-size: 57px;
     }
 
@@ -328,16 +339,23 @@
     .eip-container {
         top: 290vh;
     }
-    .works-container{
-        margin-top:20vh;
-        margin-bottom: 20vh;
+
+    .works-container {
+        /*margin-top: 20vh;
+        margin-bottom: 20vh;*/
     }
+
+    .eip-page {
+        margin-top: 10vh;
+    }
+
 
 }
 
 
-@media only screen and (min-width: 725px) and (max-width: 1339px) {
-    .container-fluid{
+@media only screen and (min-width: 768px) and (max-width: 1339px) {
+
+    .container-fluid {
         height: 513px;
     }
 
@@ -424,13 +442,13 @@
 
 
 @media only screen and (min-width: 1340px) {
-    .container-fluid{
+    .container-fluid {
         height: 840px;
     }
 
 
     .sidebyside {
-        margin-top:40vh;
+        /*margin-top:40vh;*/
     }
 
     .works .item .item-top {

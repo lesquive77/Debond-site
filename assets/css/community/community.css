@@ -47,8 +47,8 @@
 }
 
 .sidebyside {
-    margin-top: 102px;
-    margin-bottom: 30px;
+    /*margin-top: 102px;*/
+    /*margin-bottom: 30px;*/
 }
 
 .sidebyside .sbs-header {
@@ -116,7 +116,7 @@
     }
 
     .page-title {
-        margin-bottom: 137px;
+        /*margin-bottom: 137px;*/
     }
 
     .sidebyside{
@@ -200,7 +200,7 @@
     }
 
     .page-title {
-        margin-bottom: unset;
+        /*margin-bottom: unset;*/
     }
 
     .medias .item {
