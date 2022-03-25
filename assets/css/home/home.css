@@ -1,8 +1,21 @@
+.page-title .item-box .first-title-box{
+    width: 100%;
+}
+
 .first-title-box {
     align-self: center;
     display: flex;
     padding-top: 0px;
+}
 
+
+.first-title-box p,.first-title-box span  {
+    width: 100%;
+}
+
+.first-title-box span{
+    padding-top: 37px;
+    display: block;
 }
 
 .flex-column {
@@ -17,61 +30,81 @@
     text-align: left;
 }
 
+.item-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 @media only screen and (max-width: 375px){
+
+    .page-title .item-box{
+        margin-top: 20vh;
+    }
     .advertising-item-box-first {
         margin-top: 20vh;
     }
+
+    .first-title-box {
+        width: 100%;
+    }
 }
 
+
+
 @media only screen and (min-width: 375px) and (max-width: 724px) {
+
+    .page-title .item-box{
+        margin-top: 30vh;
+    }
+
+    @media only screen and (min-width: 375px) and (max-width: 560px){
+        .first-title-box {
+            width: 100%;
+        }
+    }
+    @media only screen and (min-width: 560px) and (max-width: 724px){
+        .first-title-box {
+            width: 60%;
+        }
+    }
+
     .advertising-item-box-first {
         margin-top: 20vh;
     }
     .flex-column {
         justify-content: center;
     }
+
 }
 
 
 @media only screen and (min-width: 725px) and (max-width: 1340px) {
-    .advertising-item-box-first .first-title-box {
-        width: 423px;
+
+    .page-title .item-box{
+        margin-top: 20vh;
     }
+
     .flex-column {
         justify-content: center;
     }
 
-    .advertising-item-box-third .first-title-box {
-        width: 290px;
+    .first-title-box {
+        width: 380px;
     }
 
-    .advertising-item-box-third .first-title-box p, .advertising-item-box-third .first-title-box span {
+
+    .first-title-box p,  .first-title-box span {
         width: 100%;
     }
 
-
-    .advertising-item-box-fourth .first-title-box {
-        width: 313px;
-    }
-
-    .advertising-item-box-fourth .first-title-box p, .advertising-item-box-fourth .first-title-box span {
-        width: 100%;
-    }
-
-    .advertising-item-box-fifth .first-title-box {
-        width: 316px;
-    }
-
-    .advertising-item-box-fifth .first-title-box p, .advertising-item-box-fifth .first-title-box span {
-        width: 100%;
-    }
 
     .advertising-box p {
         font-weight: 800;
         font-size: 36px;
         line-height: 37px;
-        width: 423px;
+        /*width: 423px;*/
     }
 
     .advertising-item-box-first {
@@ -81,6 +114,15 @@
 }
 
 @media only screen and (min-width: 1340px) {
+
+    .page-title .item-box{
+        margin-top: 10vh;
+    }
+
+    .first-title-box {
+        width: 600px;
+    }
+
     .advertising-item-box-first {
         margin-top: 10vh;
     }
@@ -92,11 +134,11 @@
     .advertising-box p {
         font-size: 60px;
         line-height: 60px;
-        width: 720px;
+        /*width: 720px;*/
     }
 
     .advertising-item-box-second .first-title-box span {
-        width: 530px;
+        /*width: 530px;*/
         padding-top: 37px;
     }
 }
