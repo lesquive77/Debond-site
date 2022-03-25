@@ -41,77 +41,9 @@ custom_css:
     <div class="out-advisors-box">
         <p class="title">Our Team</p>
         <div class="box">
-            <div class="item item-team">
-                <img src="/assets/images/people/team/0.png"/>
-                <p>Yu Liu</p>
-                <span>FOUNDER & CEO<br/> Founder & Developer At SWAP HELPER Developer<br/> of Grap.Finance</span>
-            </div>
-            <div class="item item-team">
-                <img src="/assets/images/people/team/7.png"/>
-                <p>Sang-Bo W, PhD</p>
-                <span>CO-FOUNDER Chief Algorithms Officer Math & Economic Model PhD. Financial Mathematics, École polytechnique de Paris</span>
-            </div>
-            <div class="item item-team">
-                <img src="/assets/images/people/team/6.png"/>
-                <p>Waroon D, PhD</p>
-                <span>CO-FOUNDER & CTO<br/> Head of security At UNIRIS Doctor of<br/> Philosophy, Design of Blockchain-based trust management systems</span>
-            </div>
-            <div class="item item-team">
-                <img src="/assets/images/people/team/3.png">
-                <p>Allan M</p>
-                <span>PARTNERSHIP MANAGER<br/> Growth Partnership<br/> VC Analyst<br/> ESSEC Business School</span>
-            </div>
-            <div class="item item-team">
-                <img src="/assets/images/people/team/1.png"/>
-                <p>Samuel O, PhD</p>
-                <span>BLOCKCHAIN DEVELOPER<br/> Blockchain Developer, QA<br/> PhD Candidate Energy & Entropy,<br/> Sorbonne University</span>
-            </div>
-            <div class="item item-team">
-                <img src="/assets/images/people/team/8.png"/>
-                <p>Cedric N</p>
-                <span>
-                    SENIOR BLOCKCHAIN CONSULTANT CTO AT Culture Shock
-                    Software development engineer  AT CANAL+ 
-                    </span>
-            </div>
-            <div class="item item-team">
-                <img src="/assets/images/people/team/4.png"/>
-                <p>Toufic B</p>
-                <span>BLOCKCHAIN DEVELOPER <br/> QUANT Data Scientist, THALES Risk ALM Model Reviewer, BNP PARIBAS</span>
-            </div>
-            <div class="item item-team">
-                <img src="/assets/images/people/team/2.png"/>
-                <p>Dhruv M</p>
-                <span>BLOCKCHAIN ENGINEER <br/>Masters in science & technology in Cybersecurity, école Polytechnique
-                    </span>
-            </div>
-            <div class="item item-team">
-                <img src="/assets/images/people/team/5.png"/>
-                <p>Olusegun O </p>
-                <span>
-                    CONTENT WRITER <br/>
-                    Social Media/Content Marketing <br/> PhD candidate Communication at Universitat Pompeu Fabra, Social media & content marketing
-                    </span>
-            </div>
-            <div class="item item-team">
-                <img src="/assets/images/people/team/10.png"/>
-                <p>Guillaume Q</p>
-                <span>
-                    BLOCKCHAIN DEVELOPER <br/>
-                    Software Developer at Thalès <br/>
-                    Machine learning Engineer École Polytechnique
-                    </span>
-            </div>
-            <div class="item item-team">
-                <img src="/assets/images/people/team/9.png"/>
-                <p>Máté Mátyás</p>
-                <span>HEAD OF COMMUNICATION International Tech Policy Analyst AT TREMEAU</span>
-            </div>
-            <div class="item item-team">
-                <img src="/assets/images/people/team/11.png"/>
-                <p>Meriem Marsli</p>
-                <span>UX/UI DESIGNER UX/UI Designer, MOËT HENNESSY (LVMH) Art Director, ADFAB</span>
-            </div>
+            {% for member in site.data.team %}
+            {% include teamItem.html name=member.name description=member.description img=member.img %}
+            {% endfor %}
         </div>
     </div>
     <div class="out-advisors-box advertising-div">
