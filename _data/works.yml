@@ -5,5 +5,5 @@
   name: "Multi-layered pool"
   description: "Swapping and creating pairs are more efficient, with lower gas fee and slippage."
 - path: "assets/images/technology/works/erc.png"
-  name: "The ERC–3475 Debond"
+  name: "The ERC–3475 {{site.title-styled}}"
   description: "The liquidity pool (LP) becomes more stable, therefore investment value is more certain."

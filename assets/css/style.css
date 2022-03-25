@@ -1,8 +1,8 @@
-*{
-    box-sizing:unset;
+* {
+    box-sizing: unset;
 }
 
-.container-fluid{
+.container-fluid {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -27,22 +27,18 @@ em {
 }
 
 
-
-.fit-80-screen{
+.fit-80-screen {
     min-height: 80vh;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
 }
 
-.fit-50-screen{
+.fit-50-screen {
     min-height: 50vh;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
 }
 
-.debond-color-font {
-    color: #403AF4 !important;
-}
 
 p {
     margin: 0px;
@@ -75,7 +71,7 @@ a {
 
 }
 
-.advertising-item-box-fifth .centered .button{
+.advertising-item-box-fifth .centered .button {
     margin-top: 20px;
 }
 
@@ -872,7 +868,7 @@ a {
     }
 
     .footer-recourse-img-box {
-        margin-top:10px;
+        margin-top: 10px;
     }
 }
 

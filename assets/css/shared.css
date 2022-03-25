@@ -4,6 +4,15 @@
     margin: 20px 0px 20px 0px;
 }
 
+.debond-color-font {
+    color: #403AF4 !important;
+}
+
+.debond-color-font-bold {
+    color: #403AF4 !important;
+    font-weight: bolder;
+}
+
 .fit-screen {
     /*min-height: 100vh;*/
     margin-top: 20vh;

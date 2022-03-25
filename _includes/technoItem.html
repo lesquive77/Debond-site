@@ -1,11 +1,11 @@
 <div class="item">
     {% if include.top %}
-    <div class="item-top">{{include.top}}</div>
+    <div class="item-top">{{include.top }}</div>
     {% endif %}
 
     {% if include.path %}
     <div class="item-header"><img src={{include.path}}/></div>
     {% endif %}
-    <p>{{ include.name }}</p>
+    <p>{{ include.name | flatify }}</p>
     <span>{{ include.description }}</span>
 </div>

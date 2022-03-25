@@ -1,9 +1,9 @@
 - number: "1<em class='debond-color-font'>.</em>"
-  title: "D/bond <br/><em class='debond-color-font'>Standard</em>"
+  title: "ERC{{site.debond-slash}}3475"
   description: "We have developed the new ERC–3475 to make securities possible on the blockchain. It empowers everyone to <em class='debond-color-font'> create their own bonds and derivatives like futures and options.</em> Each bond or derivative is assigned to a unique algorithm and does not require an additional smart contract."
 - number: "2<em class='debond-color-font'>.</em>"
-  title: "D/bond <br/><em class='debond-color-font'>Exchange</em>"
+  title: "D{{site.debond-slash}}EXCHANGE"
   description: "It is the marketplace where <em class='debond-color-font'> bonds and derivatives can be traded</em>. It supports all auctions compatible with the ERC–3475 standard. After a bond is released to the market, its price decreases until somebody buys it."
 - number: "3<em class='debond-color-font'>.</em>"
-  title: "D/bond <br/><em class='debond-color-font'>Wallet</em>"
-  description: "Debond Wallet <span>is an extension</span> to the regular ERC–20 wallet. <em class='debond-color-font'> It can display  all ERC–3475 assets of a user in one place.</em> No more downloading additional softwares or regenerating private keys!"
+  title: "D{{site.debond-slash}}WALLET"
+  description: "{{site.title-styled}} Wallet <span>is an extension</span> to the regular ERC–20 wallet. <em class='debond-color-font'> It can display  all ERC–3475 assets of a user in one place.</em> No more downloading additional softwares or regenerating private keys!"
