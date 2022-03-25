@@ -45,7 +45,3 @@ mail: "info@debond.org"
 documentation: "https://github.com/Debond-Protocol/Docs"
 linkedin: "https://www.linkedin.com/company/debond-protocol/"
 pitch: "assets/docs/pitch.pdf"
-
-# Added for variables in yml
-gems:
-  - jekyll-liquify
