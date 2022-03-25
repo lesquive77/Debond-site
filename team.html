@@ -42,69 +42,17 @@ custom_css:
         <p class="title">Our Team</p>
         <div class="box">
             {% for member in site.data.team %}
-            {% include teamItem.html name=member.name description=member.description img=member.img %}
+            {% include teamItem.html name=member.name description=member.description img=member.img link=member.link %}
             {% endfor %}
         </div>
     </div>
     <div class="out-advisors-box advertising-div">
         <p class="title">Our advisors</p>
         <div class="box">
-            <div class="item item-advisors">
-                <img src="/assets/images/people/advisors/1.png"/>
-                <p>Stephane Marrache</p>
-                <span>VP BUSINESS & CORPORATE DEVELOPMENT AT COINHOUSE</span>
-            </div>
-            <div class="item item-advisors">
-                <img src="/assets/images/people/advisors/2.png"/>
-                <p>Erfan Isaac</p>
-                <span>CO-FOUNDER & COO ADVISOR & ANGEL INVESTOR AT HOTBIT</span>
-            </div>
-            <div class="item item-advisors">
-                <img src="/assets/images/people/advisors/3.png"/>
-                <p>Jason Hung</p>
-                <span>CO-FOUNDER AT ICA</span>
-            </div>
-            <div class="item item-advisors">
-                <img src="/assets/images/people/advisors/4.png"/>
-                <p>Abdullah Jadoon</p>
-                <span>SOCIAL MEDIA ADVISOR FOUNDER AT JADOON GROUP & HEAD OF SOCIAL MEDIA AT HYPE PARTNERS</span>
-            </div>
-            <div class="item item-advisors">
-                <img src="/assets/images/people/advisors/5.png"/>
-                <p>Sita Chopra</p>
-                <span>SENIOR CLIENT RELATIONSHIP MANAGER  AT CVVC</span>
-            </div>
-            <div class="item item-advisors">
-                <img src="/assets/images/people/advisors/6.png"/>
-                <p>Abdelmounaim Derraz</p>
-                <span>FOUNDER AT NEBULAE</span>
-            </div>
-            <div class="item item-advisors" id="hide_1">
-                <img src="/assets/images/people/advisors/7.png"/>
-                <p>Ivan Miskovic</p>
-                <span>VC AT TGE Capital</span>
-            </div>
-            <div class="item item-advisors" id="hide_2">
-                <img src="/assets/images/people/advisors/12.png"/>
-                <p>Karl-Martin Ahrend</p>
-                <span>PRIVATE EQUITY AT THE BLACKSTONE GROUP</span>
-            </div>
-            <div class="item item-advisors" id="hide_3">
-                <img src="/assets/images/people/advisors/9.png"/>
-                <p>Alexis Sheikh</p>
-                <span>PARTNER AT SUPERCAP DIGITAL</span>
-            </div>
-            <div class="item item-advisors" id="hide_4">
-                <img src="/assets/images/people/advisors/11.png"/>
-                <p>Rasheed Saleuddin </p>
-                <span>ADVISOR AT THE BORING DAO & RESEARCH AFFILIATE AT UNIVERSITY OF CAMBRIDGE </span>
-            </div>
-            <div class="item item-advisors" id="hide_5">
-                <img src="/assets/images/people/advisors/13.png"/>
-                <p>Oleksander Korliuk, PhD </p>
-                <span>INFRASTRUCTURE AND ARCHITECT ADVISOR
-                    AWS PARTNER, AWS Certified  Solution Architect </span>
-            </div>
+            {% for member in site.data.advisors %}
+            {% include advisorsItem.html name=member.name description=member.description img=member.img link=member.link
+            id=member.id %}
+            {% endfor %}
             <div class="see-more-box">
                 <button onclick="getAll()" id="showAll">SEE MORE</button>
             </div>
