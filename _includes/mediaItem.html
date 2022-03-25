@@ -4,6 +4,6 @@
         <div class="item-header"><img src={{include.path}}/></div>
     </a>
     {% endif %}
-    <p>{{ include.name }}</p>
-    <span>{{ include.description }}</span>
+    <p>{{ include.name | flatify}}</p>
+    <span>{{ include.description | flatify}}</span>
 </div>
