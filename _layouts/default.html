@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta name="viewport" content="initial-scale=1., width=device-width">
     <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/page.css">
@@ -21,16 +21,18 @@
     <link rel="stylesheet" href="/assets/css/{{ stylesheet }}.css">
     {% endfor %}
     {% endif %}
-    <title>Home</title>
+    <title>DEBOND</title>
     <script>
-        function openMenu(){
+        document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=' + (1 / window.devicePixelRatio));
+
+        function openMenu() {
             const btn = document.getElementById('menu_content');
-            const display =window.getComputedStyle(btn).display;
-            if(display !== "flex"){
+            const display = window.getComputedStyle(btn).display;
+            if (display !== "flex") {
                 document.getElementById("burger").src = "/assets/images/exit.svg";
                 document.getElementById("menu_content").style.display = "flex";
                 document.body.style.overflow = "hidden";
-            }else{
+            } else {
                 document.getElementById("burger").src = "/assets/images/burger.svg";
                 document.getElementById("menu_content").style.display = "none";
                 document.body.style.overflowY = "scroll";
@@ -55,8 +57,8 @@
         </div>
         <div class="footer-links-container">
             <div class="footer-links-box">
-                <a  href="/technology" class="footer-links-title">Technology</a>
-                <a  href="/about" class="footer-links-title">About</a>
+                <a href="/technology" class="footer-links-title">Technology</a>
+                <a href="/about" class="footer-links-title">About</a>
             </div>
             <div class="footer-links-box">
                 <a href="/team" class="footer-links-title">Team</a>
@@ -66,9 +68,12 @@
         <div class="footer-recourse-box">
             <span class="footer-links-title-items">Keep in touch</span>
             <div class="footer-recourse-img-box">
-                <a href="https://twitter.com/DebondProtocol" target="_blank"> <img src="/assets/images/twitter-logo.svg"/></a>
-                <a href="https://github.com/DeBond-Protocol/" target="_blank"><img src="/assets/images/git-hub-logo.svg"/></a>
-                <a href="https://www.reddit.com/user/DebondProtocol" target="_blank"><img src="/assets/images/d-logo.svg"/></a>
+                <a href="https://twitter.com/DebondProtocol" target="_blank"> <img
+                        src="/assets/images/twitter-logo.svg"/></a>
+                <a href="https://github.com/DeBond-Protocol/" target="_blank"><img
+                        src="/assets/images/git-hub-logo.svg"/></a>
+                <a href="https://www.reddit.com/user/DebondProtocol" target="_blank"><img
+                        src="/assets/images/d-logo.svg"/></a>
                 <a href="https://discord.gg/Bhq2YEqY" target="_blank"><img src="/assets/images/discord.svg"/></a>
                 <a href="https://debond-protocol.medium.com/" target="_blank"><img src="/assets/images/some-1.svg"/></a>
                 <a href="#"><img src="/assets/images/youtube.svg" target="_blank"/></a>

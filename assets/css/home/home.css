@@ -5,6 +5,12 @@
 
 }
 
+.flex-column {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
 .page-title {
     margin-top: 0vh;
@@ -22,12 +28,18 @@
     .advertising-item-box-first {
         margin-top: 20vh;
     }
+    .flex-column {
+        justify-content: center;
+    }
 }
 
 
 @media only screen and (min-width: 725px) and (max-width: 1340px) {
     .advertising-item-box-first .first-title-box {
         width: 423px;
+    }
+    .flex-column {
+        justify-content: center;
     }
 
     .advertising-item-box-third .first-title-box {
