@@ -40,7 +40,7 @@ defaults:
     values:
       layout: "default"
 
-webapp_link: "https://rebond-52981.web.app/"
+webapp_link: "https://debondapp.web.app"
 mail: "info@debond.org"
 documentation: "https://github.com/Debond-Protocol/Docs"
 linkedin: "https://www.linkedin.com/company/debond-protocol/"
