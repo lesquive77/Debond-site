@@ -1,0 +1,8 @@
+<div class="item">
+    {% if include.path %}
+    <a href={{include.link}}>
+        <div class="item-header"><img src={{include.path}}/></div>
+    </a>
+    {% endif %}
+    <p>{{ include.name }}</p>
+</div>

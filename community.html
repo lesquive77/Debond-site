@@ -26,7 +26,12 @@ custom_css:
             </div>
         </div>
     </div>
-
+    <div class="debond-table medias posts">
+        {% for post in site.data.mediumPosts.items %}
+        {% include mediumPost.html name=post.title link=post.link path="assets/images/community/medias/medium.png"
+        %}
+        {% endfor %}
+    </div>
     <div class="sidebyside fit-screen">
         <div id="governance-img-div">
             <img src="assets/images/governance/governance.png"/>

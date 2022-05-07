@@ -13,6 +13,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-get-json
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -45,3 +46,7 @@ mail: "info@debond.org"
 documentation: "https://github.com/Debond-Protocol/Docs"
 linkedin: "https://www.linkedin.com/company/debond-protocol/"
 pitch: "assets/docs/pitch.pdf"
+
+jekyll_get_json:
+  - data: mediumPosts
+    json: 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@debond-protocol'
