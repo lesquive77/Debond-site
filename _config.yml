@@ -46,6 +46,7 @@ mail: "info@debond.org"
 documentation: "https://github.com/Debond-Protocol/Docs"
 linkedin: "https://www.linkedin.com/company/debond-protocol/"
 pitch: "assets/docs/pitch.pdf"
+video: "https://www.youtube.com/embed/iEneuSCameo"
 
 jekyll_get_json:
   - data: mediumPosts
