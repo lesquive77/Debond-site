@@ -26,11 +26,14 @@ custom_css:
             </div>
         </div>
     </div>
-    <div class="debond-table medias posts">
-        {% for post in site.data.mediumPosts.items %}
-        {% include mediumPost.html name=post.title link=post.link path="assets/images/community/medias/medium.png"
-        %}
-        {% endfor %}
+    <div>
+        <div class="centered debondh2"> Our latest posts</div>
+        <div class="debond-table medias posts">
+            {% for post in site.data.mediumPosts.items limit:3 %}
+            {% include mediumPost.html name=post.title link=post.link path="assets/images/community/medias/medium.png"
+            %}
+            {% endfor %}
+        </div>
     </div>
     <div class="sidebyside fit-screen">
         <div id="governance-img-div">
@@ -39,12 +42,15 @@ custom_css:
         <div id="governance-text-div">
             <div class="sbs-header">GOVERNANCE:<br/> contribute to the project</div>
             <div class="sbs-text">
-                {{site.title-styled}} is above all a community whose aim is to bring real change to DeFi. We have developed the
+                {{site.title-styled}} is above all a community whose aim is to bring real change to DeFi. We have
+                developed the
                 ERC–3475 standard to achieve this — making investments safer and more stable.
                 <br/><br/>
-                Unlike other DeFi projects like SnapShot, we do not only poll our community. {{site.title-styled}} makes transparent,
+                Unlike other DeFi projects like SnapShot, we do not only poll our community. {{site.title-styled}} makes
+                transparent,
                 community-led, decentralised governance possible on our comprehensive platform. Smart contracts and
-                DBGTs ({{site.title-styled}} Governance Tokens) are used to vote democratically on proposals, revisions, updates,
+                DBGTs ({{site.title-styled}} Governance Tokens) are used to vote democratically on proposals, revisions,
+                updates,
                 withdrawals, and executions about {{site.title-styled}} and its funds on the chain.
             </div>
         </div>
