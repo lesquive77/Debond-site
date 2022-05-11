@@ -1223,9 +1223,9 @@ a {
 }
 
 
-.advertising-box {
+.advertising_box {
     width: 100%;
-    display: flex;
+    display: flex!important;
     flex-direction: column;
     justify-content: center;
 }
@@ -1322,7 +1322,7 @@ a {
     text-align: left;
 }
 
-.advertising-box p {
+.advertising_box p {
     font-family: Inter;
     font-style: normal;
     font-weight: 800;
@@ -1330,7 +1330,7 @@ a {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.advertising-box span {
+.advertising_box span {
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
@@ -1532,12 +1532,12 @@ a {
         margin-top: 27px;
     }
 
-    .advertising-box p {
+    .advertising_box p {
         font-size: 60px;
         line-height: 60px;
     }
 
-    .advertising-box span {
+    .advertising_box span {
         font-family: Inter;
         font-style: normal;
         font-weight: 500;
@@ -1652,12 +1652,12 @@ a {
         margin-top: 27px;
     }
 
-    .advertising-box p {
+    .advertising_box p {
         font-size: 46px;
         line-height: 46px;
     }
 
-    .advertising-box span {
+    .advertising_box span {
         font-family: Inter;
         font-style: normal;
         font-weight: 500;
@@ -1700,12 +1700,12 @@ a {
         height: 585px;
     }
 
-    .advertising-box p {
+    .advertising_box p {
         font-size: 60px;
         line-height: 60px;
     }
 
-    .advertising-box span {
+    .advertising_box span {
         font-family: Inter;
         font-style: normal;
         font-weight: 500;
@@ -1834,12 +1834,12 @@ a {
         margin-top: 27px;
     }
 
-    .advertising-box p {
+    .advertising_box p {
         font-size: 40px;
         line-height: 40px;
     }
 
-    .advertising-box span {
+    .advertising_box span {
         font-family: Inter;
         font-style: normal;
         font-weight: 500;
@@ -2008,13 +2008,13 @@ a {
         line-height: 17px;
     }
 
-    .advertising-box p {
+    .advertising_box p {
         font-size: 36px;
         line-height: 37px;
     }
 
 
-    .advertising-box span {
+    .advertising_box span {
         font-size: 16px;
         line-height: 20px;
     }
@@ -2180,13 +2180,13 @@ a {
         line-height: 17px;
     }
 
-    .advertising-box p {
+    .advertising_box p {
         font-size: 36px;
         line-height: 37px;
     }
 
 
-    .advertising-box span {
+    .advertising_box span {
         font-size: 16px;
         line-height: 20px;
     }
@@ -2354,13 +2354,13 @@ a {
         line-height: 17px;
     }
 
-    .advertising-box p {
+    .advertising_box p {
         font-size: 36px;
         line-height: 37px;
     }
 
 
-    .advertising-box span {
+    .advertising_box span {
         font-size: 16px;
         line-height: 20px;
     }
@@ -2523,13 +2523,13 @@ a {
         line-height: 17px;
     }
 
-    .advertising-box p {
+    .advertising_box p {
         font-size: 36px;
         line-height: 37px;
     }
 
 
-    .advertising-box span {
+    .advertising_box span {
         font-size: 16px;
         line-height: 20px;
     }
