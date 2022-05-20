@@ -19,3 +19,8 @@
 .sidebyside div img {
     width: 80%;
 }
+
+.img-wrapper img{
+    height:40vh;
+    width: auto;
+}

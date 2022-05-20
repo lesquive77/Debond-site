@@ -51,3 +51,6 @@ video: "https://www.youtube.com/embed/iEneuSCameo"
 jekyll_get_json:
   - data: mediumPosts
     json: 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@debond-protocol'
+
+sass:
+  sass_dir: assets/css/scss

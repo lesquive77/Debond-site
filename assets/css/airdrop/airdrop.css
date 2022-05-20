@@ -20,3 +20,7 @@
 .paragraph{
     max-width: 60%;
 }
+
+html body .e-widget-wrapper {
+    margin: 30vh;
+}

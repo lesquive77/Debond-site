@@ -12,8 +12,44 @@ custom_css:
         <span class="title-text">Debond’s new ERC/3475 standard brings more security and stability to decentralised finance (DeFi)</span>
     </div>
 
+    <section class="pt-5 pb-5">
+        <div class="col-6 text-right">
+            <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
+               data-slide="prev">
+                <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="col-12">
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            {% for nft in site.data.nfts %}
+                            {% include carouselItem.html href=nft.path %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            {% for nft in site.data.nfts2 limit 5 %}
+                            {% include carouselItem.html href=nft.path %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
     <div class="sidebyside fit-screen">
-        <div >
+        <div>
             <div class="sbs-header">Ground Breaking
                 <div class="sbs-text">
                     D/BOND is above all a community whose aim is to bring real change to DeFi. We have developed the
@@ -24,22 +60,24 @@ custom_css:
                 </div>
             </div>
         </div>
-        <div >
+        <div>
             <img id="nft1" src="assets/images/nft/1.png"/>
         </div>
 
     </div>
 
     <div class="sidebyside fit-screen">
-        <div >
+        <div>
             <img id="nft2" src="assets/images/nft/2.png"/>
         </div>
-        <div >
+        <div>
             <div class="sbs-header">A curious object from outer space
                 <div class="sbs-text">
-                    D/BOND is above all a community whose aim is to bring real change to DeFi. We have developed the ERC/3475 standard to achive this — making investments safer and more stable.
+                    D/BOND is above all a community whose aim is to bring real change to DeFi. We have developed the
+                    ERC/3475 standard to achive this — making investments safer and more stable.
                     <br><br>
-                    Unlike other DeFi projects like SnapShot, we do not only poll our community. D/BOND makes transparent, community-led, decentralised governance possible on our comprehensive platform.
+                    Unlike other DeFi projects like SnapShot, we do not only poll our community. D/BOND makes
+                    transparent, community-led, decentralised governance possible on our comprehensive platform.
                 </div>
             </div>
         </div>
