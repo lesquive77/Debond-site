@@ -1,6 +1,3 @@
-.carousel-title{
-    height: 140vh;
-}
 
 @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
