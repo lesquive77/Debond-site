@@ -5,47 +5,39 @@ permalink: /nft
 custom_css:
 - nft/nft
 - sidebyside
+- carousel
 ---
+
 <div class="page">
-    <div class="page-title">
+
+    <div class="page-title" style="margin-bottom: 20vh">
         <p class="title-header">NFTs</p>
         <span class="title-text">Debond’s new ERC/3475 standard brings more security and stability to decentralised finance (DeFi)</span>
-    </div>
-
-    <section class="pt-5 pb-5">
-        <div class="col-6 text-right">
-            <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
-               data-slide="prev">
-                <i class="fa fa-arrow-left"></i>
-            </a>
-            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                <i class="fa fa-arrow-right"></i>
-            </a>
-        </div>
-        <div class="col-12">
-            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            {% for nft in site.data.nfts %}
-                            {% include carouselItem.html href=nft.path %}
-                            {% endfor %}
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            {% for nft in site.data.nfts2 limit 5 %}
-                            {% include carouselItem.html href=nft.path %}
-                            {% endfor %}
-                        </div>
-                    </div>
+        <div class="container" style="margin-top: 10vh ">
+            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    {% assign psize = site.data.nfts | size %}
+                    {% for i in (0..psize) %}
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={{ i }}></button>
+                    {% endfor %}
                 </div>
+                <div class="carousel-inner" role="listbox">
+                    {% for nft in site.data.nfts %}
+                    {% include carouselItem.html path=nft.path %}
+                    {% endfor %}
+                </div>
+                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                   data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                   data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
 
             </div>
         </div>
-
-    </section>
+    </div>
 
 
     <div class="sidebyside fit-screen">
