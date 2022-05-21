@@ -43,7 +43,7 @@ defaults:
 
 webapp_link: "https://debondapp.web.app"
 mail: "info@debond.org"
-documentation: "https://github.com/Debond-Protocol/Docs"
+documentation: "https://github.com/Debond-Protocol/Docs/raw/main/Debond_Whitepaper_V2_WIP.pdf"
 linkedin: "https://www.linkedin.com/company/debond-protocol/"
 pitch: "assets/docs/pitch.pdf"
 video: "https://www.youtube.com/embed/iEneuSCameo"
