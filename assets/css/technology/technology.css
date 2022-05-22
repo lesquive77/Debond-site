@@ -1,6 +1,20 @@
+#ledger {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    bottom: 0px;
+    right: -50px;
+    /*z-index: 10;*/
+}
+
+
+.ledger-text {
+    width: 40vw!important;
+}
+
 .second-page {
     margin-top: 0px;
-    padding-top:0px ;
+    padding-top:0px;
 }
 
 .container-fluid {
