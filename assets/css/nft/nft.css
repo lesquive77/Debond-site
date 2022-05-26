@@ -1,3 +1,49 @@
+body{
+    background-image: url('../../images/nft/background.jpg');
+    background-size:cover;
+}
+
+.button{
+    background: black;
+}
+.button:hover{
+    color:lightblue;
+}
+.sidebyside div{
+    text-align: left!important;
+}
+.footer{
+    background: none;
+}
+
+.row{
+    width: 30vw!important;
+    margin:auto;
+}
+.col div img{
+    height: auto;
+    max-width:100%;
+}
+.col div{
+    height: auto;
+    width:10vw;
+}
+.col{
+    padding: 0px!important;margin: 0px;
+}
+.debond-color-font {
+    color: black !important;
+}
+
+.debond-color-font-bold {
+    color: black !important;
+    font-weight: bolder;
+}
+
+
+.page{
+    background: none;
+}
 .carousel-title{
     height: 140vh;
 }

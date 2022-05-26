@@ -5,39 +5,18 @@ permalink: /nft
 custom_css:
 - nft/nft
 - sidebyside
-- carousel
-custom_js:
-- carousel
 ---
 
+<script>
+    document.getElementById("dlogo").src="assets/images/logo_black.png";
+</script>
 <div class="page">
 
-    <div class="page-title carousel-title">
+    <div class="page-title">
         <p class="title-header">D{{site.debond-slash}}NFTs</p>
         <span class="title-text">{{site.title-styled}} redefines the utilities and conceptions of NFTs</span>
-        <div class="container" style="margin-top: 10vh ">
-            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    {% assign psize = site.data.nfts | size %}
-                    {% for i in (0..psize) %}
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={{ i }}></button>
-                    {% endfor %}
-                </div>
-                <div class="carousel-inner" role="listbox">
-                    {% for nft in site.data.nfts %}
-                    {% include carouselItem.html path=nft.path %}
-                    {% endfor %}
-                </div>
-                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
-                   data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </a>
-                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
-                   data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </a>
-
-            </div>
+        <div class="centered">
+            <a class="button" >Start Minting</a>
         </div>
     </div>
 
@@ -55,8 +34,25 @@ custom_js:
                 </div>
             </div>
         </div>
+
         <div>
-            <img id="nft1" src="assets/images/nft/1.png"/>
+            <div class="container nfts">
+                <div class="row">
+                    <div class="col">
+                        <div><img src="assets/images/nft/3.png"></div>
+                    </div>
+                    <div class="col">
+                        <div><img src="assets/images/nft/4.png"></div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col">
+                        <div><img src="assets/images/nft/5.png"></div>
+                    </div>
+                    <div class="col">
+                        <div><img src="assets/images/nft/6.png"></div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
