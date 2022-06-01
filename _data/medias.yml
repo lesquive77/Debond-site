@@ -13,7 +13,7 @@
 - path: "assets/images/community/medias/youtube.png"
   name: "Youtube"
   description: "For videos explaining how {{site.title-styled}} works"
-  link: "#"
+  link: "https://www.youtube.com/channel/UCCg_7Fp5faCY1nU8ktBmijg"
 - path: "assets/images/community/medias/reddit.png"
   name: "Reddit"
   description: "To ask questions and interact with the community"
