@@ -1,44 +1,57 @@
-body{
-    background-color: #403AF4!important;
+body {
+    background-color: #403AF4 !important;
     background-image: url('../../images/nft/background3.jpeg');
-    background-size:cover;
+    background-size: cover;
 }
 
-.button{
+.button {
     background: black;
 }
-.button:hover{
-    color:lightblue;
+
+.button:hover {
+    color: lightblue;
 }
-.sidebyside div{
-    text-align: left!important;
+
+.sidebyside div {
+    text-align: left !important;
 }
-.footer{
+
+.footer {
     background: none;
 }
 
-.sidebyside > div{
+.sidebyside > div {
     margin-bottom: 30px;
+}
+
+.container {
+    padding-left: unset !important;
+    padding-right: unset !important;
 }
 
 @media only screen and (min-width: 376px) and (max-width: 768px) {
 
 }
 
-.row{
-    margin:auto;
+.row {
+    margin: auto;
 }
-.col div img{
+
+.col div img {
     height: auto;
-    max-width:100%;
+    max-width: 100%;
 }
-.col div{
+
+.col div {
     height: auto;
-    width:10vw;
+    width: 10vw;
 }
-.col{
-    padding: 0px!important;margin: 0px;
+
+.col {
+    padding: 0px !important;
+    margin: 0px;
 }
+
 .debond-color-font {
     color: black !important;
 }
@@ -49,25 +62,28 @@ body{
 }
 
 
-.page{
+.page {
     background: none;
 }
-.carousel-title{
+
+.carousel-title {
     height: 140vh;
 }
 
-.sidebyside div img{
+.sidebyside div img {
     max-width: 537px;
     max-height: 779px;
 }
 
-.sbs-header{
+.sbs-header {
     max-width: 80%;
 }
-.sbs-text{
+
+.sbs-text {
     margin-top: 40px;
 }
-.sidebyside{
+
+.sidebyside {
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -78,7 +94,7 @@ body{
     width: 80%;
 }
 
-.img-wrapper img{
-    height:40vh;
+.img-wrapper img {
+    height: 40vh;
     width: auto;
 }
