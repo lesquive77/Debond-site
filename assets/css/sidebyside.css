@@ -71,7 +71,7 @@
     .sidebyside .sbs-text {
         font-size: 20px;
     }
-    .sidebyside div {
+    .sidebyside > div {
         margin-left: 20px;
     }
 }
