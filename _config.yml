@@ -1,6 +1,7 @@
 title: Debond
-title-styled: D<em class='debond-color-font-bold'>/</em>BOND
+title-styled: D<em class='debond-color-font-bold'>/</em>Bond
 debond-slash: <em class='debond-color-font-bold'>/</em>
+debond-white-slash: <em class='debond-color-font-bold-white'>/</em>
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
