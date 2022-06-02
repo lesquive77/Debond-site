@@ -7,6 +7,14 @@
     /*z-index: 10;*/
 }
 
+.black-btn {
+    background-color: black;
+    border: none!important;
+}
+.black-btn:hover{
+    color:#403AF4
+}
+
 
 .ledger-text {
     width: 40vw!important;

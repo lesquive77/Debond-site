@@ -268,7 +268,7 @@ a {
     }
 
     .menu-home .menu-links-container {
-        width: 600px;
+        width: 700px;
         padding-top: 5px;
         padding-right: 0px;
     }
@@ -1445,7 +1445,7 @@ a {
 
 @media only screen and (min-width: 1132px) {
     .advertising-contaiter {
-        padding: 132px 100px 0px 117px;
+        padding: 0px 100px 0px 117px;
     }
 
     .advertising-item-box-first .first-title-box {
@@ -1561,7 +1561,7 @@ a {
 
 @media only screen and (min-width: 916px) and (max-width: 1132px) {
     .advertising-contaiter {
-        padding: 72px 52px 0 130px;
+        padding: 0px 52px 0 130px;
     }
 
     .advertising-item-box-first .first-title-box {
@@ -1746,7 +1746,7 @@ a {
 
 @media only screen and (min-width: 768px) and (max-width: 915px) {
     .advertising-contaiter {
-        padding: 42px 22px 100px 70px;
+        padding: 0px 22px 100px 70px;
     }
 
     .advertising-item-box-first .first-title-box {
@@ -1916,7 +1916,7 @@ a {
 @media only screen and (min-width: 560px) and (max-width: 768px) {
 
     .advertising-contaiter {
-        padding: 45px 22px 83px 62px;
+        padding: 0px 22px 83px 62px;
     }
 
     .advertising-item-box-first .first-title-box {
@@ -2088,7 +2088,7 @@ a {
 @media only screen and (min-width: 560px) and (max-width: 768px) {
 
     .advertising-contaiter {
-        padding: 45px 22px 83px 62px;
+        padding: 0px 22px 83px 62px;
     }
 
     .advertising-item-box-first .first-title-box {
@@ -2268,7 +2268,7 @@ a {
 @media only screen and (min-width: 375px) and (max-width: 560px) {
 
     .advertising-contaiter {
-        padding: 45px 22px 83px 32px;
+        padding: 0px 22px 83px 32px;
     }
 
     .advertising-item-box-first .first-title-box {
@@ -2438,7 +2438,7 @@ a {
 
 @media only screen and (max-width: 375px) {
     .advertising-contaiter {
-        padding: 105px 30px 94px 30px;
+        padding: 0px 30px 94px 30px;
 
     }
 

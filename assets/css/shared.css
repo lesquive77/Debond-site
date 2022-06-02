@@ -62,6 +62,25 @@
     text-transform: uppercase;
 }
 
+.menu-button {
+    margin-top: -10px;
+    padding: 15px 50px 15px 50px;
+    display: block;
+    background: #403AF4;
+    font-family: 'Inter'!important;
+    font-style: normal!important;
+    font-weight: 800!important;
+    font-size: 18px!important;
+    line-height: 20px!important;
+    /* or 111% */
+    text-align: center!important;
+    letter-spacing: 0.025em!important;
+
+    /* Debond White */
+    color: #FFFFFF;
+
+}
+
 @media only screen and (max-width: 375px) {
     .button {
         /*padding: unset;*/
