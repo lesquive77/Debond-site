@@ -4,6 +4,10 @@ body {
     background-size: cover;
 }
 
+.menu-links-container >span > .btn{
+    background-color: black;
+}
+
 .button {
     background: black;
 }
@@ -48,7 +52,7 @@ body {
 }
 
 .col {
-    padding: 0px !important;
+    padding: 0px 0px 0px 1px!important;
     margin: 0px;
 }
 

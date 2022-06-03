@@ -1,26 +1,27 @@
 .massive-message {
-    background-color: black!important;
+    background-color: black !important;
 }
 
 .e-widget-wrapper {
-    width: 90vw;
+    width: 100%;
 }
 
-.gleam-form{
+.gleam-form {
     vertical-align: middle;
     display: flex;
+    width: 100%;
 }
 
-.paragraph span{
-    width: 70%;
+.paragraph span {
     display: inline-block;
-    text-align: left!important;
+    text-align: left !important;
 }
 
-.paragraph p{
+.paragraph p {
     margin-bottom: 5vh;
-    text-align: left!important;
+    text-align: left !important;
 }
+
 
 
 .debondh5 {
@@ -37,9 +38,9 @@
     color: #FFFFFF;
 }
 
-.paragraph{
+.paragraph {
     max-width: 80%;
-    margin: 0vh auto 0vh auto;
+    margin: 5vh auto 10vh auto;
 }
 
 html body .e-widget-wrapper {
@@ -75,12 +76,31 @@ li span {
     font-size: 4.5rem;
 }
 
-#countdown ul li span{
-    width: unset!important;
-    color:#403AF4
+#countdown ul li span {
+    width: unset !important;
+    color: #403AF4
 }
-#countdown {color:white }
 
-i{
-    color:#403AF4;
+#countdown {
+    color: white
+}
+
+i {
+    color: #403AF4;
+}
+
+.row > * {
+    flex-shrink: unset;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 724px) {
+    li {
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .col-sm {
+        flex: unset;
+    }
 }

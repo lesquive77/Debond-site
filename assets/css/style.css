@@ -9,9 +9,7 @@ a:hover {
     color: unset;
 }
 
-* {
-    box-sizing: unset;
-}
+
 
 .container-fluid {
     width: 100%;
@@ -330,7 +328,7 @@ a {
     }
 
     .menu-home .menu-links-container {
-        width: 400px;
+        width: 600px;
         padding-top: 5px;
         padding-right: 0px;
     }

@@ -1,3 +1,7 @@
+*, ::after, ::before {
+    box-sizing: unset;
+}
+
 #hide_1{
     display: none;
 }
