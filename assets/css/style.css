@@ -1439,12 +1439,14 @@ a {
         display: flex;
         margin-right: -100px;
     }
+    .first-adver-img {
+        width: 286px;
+        height: 314px;
+        margin-top: -18px;
+    }
 }
 
 @media only screen and (min-width: 1132px) {
-    .advertising-contaiter {
-        padding: 0px 100px 0px 117px;
-    }
 
     .advertising-item-box-first .first-title-box {
         width: 600px;
@@ -1558,8 +1560,6 @@ a {
 }
 
 @media only screen and (min-width: 916px) and (max-width: 1132px) {
-    .advertising-contaiter {
-    }
 
     .advertising-item-box-first .first-title-box {
         width: 600px;
@@ -1742,9 +1742,6 @@ a {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 915px) {
-    .advertising-contaiter {
-        padding: 0px 22px 100px 70px;
-    }
 
     .advertising-item-box-first .first-title-box {
         width: 600px;
@@ -1911,10 +1908,6 @@ a {
 
 
 @media only screen and (min-width: 560px) and (max-width: 768px) {
-
-    .advertising-contaiter {
-        padding: 0px 22px 83px 62px;
-    }
 
     .advertising-item-box-first .first-title-box {
         width: 600px;
@@ -2084,9 +2077,6 @@ a {
 
 @media only screen and (min-width: 560px) and (max-width: 768px) {
 
-    .advertising-contaiter {
-        padding: 0px 22px 83px 62px;
-    }
 
     .advertising-item-box-first .first-title-box {
         width: 600px;
@@ -2264,9 +2254,6 @@ a {
 
 @media only screen and (min-width: 375px) and (max-width: 560px) {
 
-    .advertising-contaiter {
-        padding: 0px 22px 83px 32px;
-    }
 
     .advertising-item-box-first .first-title-box {
         width: 100%;
@@ -2434,10 +2421,6 @@ a {
 }
 
 @media only screen and (max-width: 375px) {
-    .advertising-contaiter {
-        padding: 0px 30px 94px 30px;
-
-    }
 
     .advertising-item-box-first .first-title-box {
         width: 100%;
