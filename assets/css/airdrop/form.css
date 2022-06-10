@@ -1,0 +1,19 @@
+.popup-block{background-color: white}
+.footer.entry-footer {display: none; height: 0; padding: 0}
+.square-row { display: none }
+.red-square { display: none !important }
+.square-row .span6 { width: 100% }
+.incentive-wrapper { display: none }
+.entry-content h2{ display: none }
+.massive-message{background-color:white; color:black}
+/*body{font-family: 'Inter'; font:"14px/17px 'Inter'"; color:white}*/
+.massive-message i{color:#403AF4}
+.massive-message h2, .massive-message h2 span{font-family:Inter!important; font-weight:inherit!important}
+.enter-link{background:none; color:white}
+.entry-method {background: #121212}
+.icon-wrapper {background-color: #121212!important}
+.icon-wrapper i {color:#403AF4}
+.small-bar{color:white; background: #121212}
+.icon-wrapper:hover{background: #121212}
+.enter-link:hover{background:#121212; color:#403AF4}
+.enter-link .tally{background:#403AF4}
