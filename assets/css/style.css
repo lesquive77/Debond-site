@@ -231,7 +231,7 @@ a {
 
     .menu-container {
         width: 100%;
-        max-width: 1200px;
+        /*max-width: 1200px;*/
         justify-content: space-between;
         box-sizing: border-box;
         padding-right: 20px;
@@ -259,7 +259,7 @@ a {
 
     .menu-home .menu-container {
         width: 100%;
-        max-width: 1200px;
+        /*max-width: 1200px;*/
         justify-content: space-between;
         box-sizing: border-box;
         padding-right: 20px;
