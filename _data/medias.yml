@@ -17,7 +17,7 @@
 - path: "assets/images/community/medias/reddit.png"
   name: "Discord"
   description: "Follow us! "
-  link: "{{site.discord}}"
+  link: "https://discord.gg/39ZyGGFtqn"
 - path: "assets/images/community/medias/medium.png"
   name: "Medium"
   description: "To learn more about {{site.title-styled}}, DeFi and blockchain"
