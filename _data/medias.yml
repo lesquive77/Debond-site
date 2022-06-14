@@ -14,7 +14,7 @@
   name: "Youtube"
   description: "For videos explaining how {{site.title-styled}} works"
   link: "https://www.youtube.com/channel/UCCg_7Fp5faCY1nU8ktBmijg"
-- path: "assets/images/community/medias/reddit.png"
+- path: "assets/images/community/medias/discord.svg"
   name: "Discord"
   description: "Follow us! "
   link: "https://discord.gg/39ZyGGFtqn"
