@@ -23,7 +23,6 @@
 
 
 .debond-table .item {
-    width: 150px;
     height: fit-content;
     margin: 10px auto 10px auto;
     text-align: center;
@@ -69,18 +68,20 @@
     box-sizing: content-box;
 }
 
-@media only screen and (min-width: 376px) and (max-width: 767px) {
+@media only screen and (min-width: 350px) and (max-width: 767px) {
+
     .debond-table {
         width: 100%;
         display: flex;
         -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
         /*justify-content: space-between;*/
+        margin:0px;
         padding-top: 15px;
     }
 
     .debond-table .item {
-        width: 150px;
+        width: 280px;
     }
 }
 
@@ -90,7 +91,7 @@
         width: 95%;
     }
     .debond-table .item {
-        width: 207px;
+        /*width: 207px;*/
     }
 
     .debond-table .item .item-header {
@@ -100,13 +101,7 @@
     .debond-table .item .item-header img {
         max-height: 68px;
     }
-    .debond-table{
-        display: flex;
-        width: 100%;
-        display: flex;
-        -webkit-flex-wrap: wrap;
-        flex-wrap: wrap;
-    }
+
 }
 
 @media only screen and (min-width: 1340px) {
@@ -131,9 +126,9 @@
 
 
     .debond-table .item {
-        width: 381px;
+        /*width: 381px;*/
         height: 438px;
-        margin: 20px;
+        /*margin: 20px;*/
         text-align: center;
     }
 

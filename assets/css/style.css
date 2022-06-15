@@ -166,6 +166,10 @@ a {
     display: flex;
     justify-content: space-between;
 
+    justify-content: space-between!important;
+    width: 100%!important;
+    max-width: 1340px!important;
+    margin: 0 auto 0 auto!important;
 }
 
 .menu-links-container {
@@ -249,7 +253,7 @@ a {
     }
 
     .menu-home {
-        padding: 42px 100px 0 117px;
+        padding-top: 42px;
     }
 
     .menu-home img {
@@ -310,7 +314,8 @@ a {
     }
 
     .menu-home {
-        padding: 42px 100px 0 100px;
+        /*padding: 42px 100px 0 100px;*/
+        margin: 42px auto 0 auto;
     }
 
     .menu-home img {
@@ -357,13 +362,13 @@ a {
     .menu img {
         width: 149.35px;
         height: 37.13px;
-        margin-left: 20px;
+        /*margin-left: 20px;*/
     }
 
     .menu-home img {
         width: 149.35px;
         /*height: 37.13px;*/
-        margin-left: 20px;
+        /*margin-left: 20px;*/
     }
 
     .menu-links-container {
@@ -381,16 +386,9 @@ a {
     }
 
     .menu-home {
-        padding: 48px 52px 0 48px;
-
+        /*margin: 48px 48px 0 48px;*/
     }
 
-    @media only screen and (min-width: 915px) and (max-width: 1140px) {
-        .menu-home {
-            padding: 48px 52px 0 130px;
-        }
-
-    }
 
     .menu-home .menu-container {
         width: 100%;
@@ -398,6 +396,7 @@ a {
         justify-content: space-between;
         box-sizing: border-box;
         padding-right: 20px;
+        margin: 48px 48px 48px!important;
     }
 
 
@@ -448,7 +447,7 @@ a {
     }
 
     .menu-home {
-        padding: 18px 22px 0px 62px;
+        padding: 18px 30px 0px 30px;
         height: 80px;
     }
 

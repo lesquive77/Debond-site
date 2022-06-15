@@ -18,6 +18,10 @@
     filter: grayscale(100%);
 }
 
+.investors .debond-table .item {
+    margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 375px) {
     .table-container {
         margin-top: 10px;
@@ -31,7 +35,7 @@
 
     .press .debond-table .item {
         height: unset;
-        margin: 20px;
+        /*margin: 20px;*/
     }
 
     .press .debond-table .item img {

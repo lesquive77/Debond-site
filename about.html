@@ -16,27 +16,30 @@ custom_css:
     </div>
 
     <div class="centered video">
-        <iframe id="debond_video" src={{site.video}}  allowfullscreen></iframe>
+        <iframe id="debond_video" src={{site.video}} allowfullscreen></iframe>
     </div>
     <div class="fit-screen">
         <div class="table-container investors">
             <div class="table-title">Partners</div>
-            <div class="debond-table">
-                {% for partner in site.data.partners %}
-                {% include partnersItem.html name=partner.name description=partner.description path=partner.path
-                link=partner.link %}
-                {% endfor %}
+            <div class="container">
+                <div class="row debond-table">
+                    {% for partner in site.data.partners %}
+                    {% include partnersItem.html name=partner.name description=partner.description path=partner.path
+                    link=partner.link %}
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
-    <div class="fit-screen-bottom">
+    <div class="fit-screen">
         <div class="table-container press">
             <div class="table-title">Press</div>
-            <div class="debond-table">
-                {% for pressItem in site.data.press %}
-                {% include pressItem.html path=pressItem.path link=pressItem.link %}
-                {% endfor %}
+            <div class="container">
+                <div class="row debond-table">
+                    {% for pressItem in site.data.press %}
+                    {% include pressItem.html path=pressItem.path link=pressItem.link %}
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
-</div>

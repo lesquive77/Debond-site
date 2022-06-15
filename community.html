@@ -15,24 +15,30 @@ custom_css:
     <div class="fit-screen-top">
 
         <div class="table-container">
-            <div class="debond-table medias">
-                {% for media in site.data.medias %}
-                {% include mediaItem.html name=media.name description=media.description path=media.path link=media.link
-                %}
-                {% endfor %}
-            </div>
-            <div class="centered">
-                <a class="button" href="mailto: {{site.mail}}">Contact us</a>
+            <div class="container">
+                <div class="row debond-table medias">
+                    {% for media in site.data.medias %}
+                    {% include mediaItem.html name=media.name description=media.description path=media.path
+                    link=media.link
+                    %}
+                    {% endfor %}
+                </div>
+                <div class="centered">
+                    <a class="button" href="mailto: {{site.mail}}">Contact us</a>
+                </div>
             </div>
         </div>
     </div>
     <div>
         <div class="centered debondh2"> Our latest posts</div>
-        <div class="debond-table medias posts">
-            {% for post in site.data.mediumPosts.items limit:3 %}
-            {% include mediumPost.html name=post.title link=post.link path="assets/images/community/medias/medium.png"
-            %}
-            {% endfor %}
+        <div class="container">
+            <div class="row debond-table medias post">
+                {% for post in site.data.mediumPosts.items limit:3 %}
+                {% include mediumPost.html name=post.title link=post.link
+                path="assets/images/community/medias/medium.png"
+                %}
+                {% endfor %}
+            </div>
         </div>
     </div>
     <div class="sidebyside fit-screen">
@@ -46,10 +52,12 @@ custom_css:
                 developed the
                 ERC–3475 standard to achieve this — making investments safer and more stable.
                 <br/><br/>
-                Unlike other DeFi projects like SnapShot, we do not only poll our community. {{site.title-styled}} makes
+                Unlike other DeFi projects like SnapShot, we do not only poll our community. {{site.title-styled}}
+                makes
                 transparent,
                 community-led, decentralised governance possible on our comprehensive platform. Smart contracts and
-                DBGTs ({{site.title-styled}} Governance Tokens) are used to vote democratically on proposals, revisions,
+                DBGTs ({{site.title-styled}} Governance Tokens) are used to vote democratically on proposals,
+                revisions,
                 updates,
                 withdrawals, and executions about {{site.title-styled}} and its funds on the chain.
             </div>
