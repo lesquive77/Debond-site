@@ -93,6 +93,10 @@
 
 }
 
+.medias .item p{
+    font-size: 23px;
+}
+
 @media only screen and (min-width: 376px) and (max-width: 725px) {
 
 
