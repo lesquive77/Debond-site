@@ -25,6 +25,9 @@
     {% endfor %}
     {% endif %}
     <title>DEBOND</title>
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
     <script>
 
         function openMenu() {
