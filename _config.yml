@@ -58,3 +58,13 @@ jekyll_get_json:
 
 sass:
   sass_dir: assets/css/scss
+
+navigation:
+  - title: Team
+    url: /team
+  - title: About
+    url: /about
+  - title: Community
+    url: /community
+  - title: NFT
+    url: /nft

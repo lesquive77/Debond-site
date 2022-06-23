@@ -1,3 +1,6 @@
+.dot div {
+    background-color: black;
+}
 body {
     background-color: #403AF4 !important;
     background-image: url('../../images/nft/background3.jpeg');
