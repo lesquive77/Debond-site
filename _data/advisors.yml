@@ -4,11 +4,6 @@
   img: "/assets/images/people/advisors/1.png"
   link: "https://www.linkedin.com/in/stephane-marrache-7625322/"
 -
-  name: "Erfan Isaac"
-  description: "CO-FOUNDER & COO ADVISOR & ANGEL INVESTOR AT HOTBIT"
-  img: "/assets/images/people/advisors/2.png"
-  link: "https://www.linkedin.com/in/erfan-isaac/"
--
   name: "Abdullah Jadoon"
   description: "SOCIAL MEDIA ADVISOR FOUNDER AT JADOON GROUP & HEAD OF SOCIAL MEDIA AT HYPE PARTNERS"
   img: "/assets/images/people/advisors/4.png"
@@ -19,20 +14,28 @@
   img: "/assets/images/people/advisors/5.png"
   link: "https://www.linkedin.com/in/sita-chopra-1911b5121/"
 -
+  name: "Erfan Isaac"
+  description: "CO-FOUNDER & COO ADVISOR & ANGEL INVESTOR AT HOTBIT"
+  img: "/assets/images/people/advisors/2.png"
+  link: "https://www.linkedin.com/in/erfan-isaac/"
+  id: "hide_1"
+-
   name: "Abdelmounaim Derraz"
   description: "FOUNDER AT NEBULAE"
   img: "/assets/images/people/advisors/6.png"
   link: "https://www.linkedin.com/in/abdelmounaimderraz/"
+  id: "hide_2"
 -
   name: "Rasheed Saleuddin"
   description: "ADVISOR AT THE BORING DAO & RESEARCH AFFILIATE AT UNIVERSITY OF CAMBRIDGE"
   img: "/assets/images/people/advisors/11.png"
   link: "https://www.linkedin.com/in/rasheed-saleuddin-26919016/"
+  id: "hide_3"
 -
   name: "Oleksander Korliuk, PhD"
   description: "INFRASTRUCTURE AND ARCHITECT ADVISOR AWS PARTNER, AWS Certified  Solution Architect"
   img: "/assets/images/people/advisors/13.png"
   link: "https://www.linkedin.com/in/oleksandr-korliuk-ph-d/"
-  id: "hide_1"
+  id: "hide_4"
 
 
