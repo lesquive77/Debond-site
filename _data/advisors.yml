@@ -4,15 +4,16 @@
   img: "/assets/images/people/advisors/1.png"
   link: "https://www.linkedin.com/in/stephane-marrache-7625322/"
 -
-  name: "Abdullah Jadoon"
-  description: "SOCIAL MEDIA ADVISOR FOUNDER AT JADOON GROUP & HEAD OF SOCIAL MEDIA AT HYPE PARTNERS"
-  img: "/assets/images/people/advisors/4.png"
-  link: "https://www.linkedin.com/in/ajadoon/"
--
   name: "Sita Chopra"
   description: "SENIOR CLIENT RELATIONSHIP MANAGER  AT CVVC"
   img: "/assets/images/people/advisors/5.png"
   link: "https://www.linkedin.com/in/sita-chopra-1911b5121/"
+-
+  name: "Abdullah Jadoon"
+  description: "SOCIAL MEDIA ADVISOR FOUNDER AT JADOON GROUP & HEAD OF SOCIAL MEDIA AT HYPE PARTNERS"
+  img: "/assets/images/people/advisors/4.png"
+  link: "https://www.linkedin.com/in/ajadoon/"
+
 -
   name: "Erfan Isaac"
   description: "CO-FOUNDER & COO ADVISOR & ANGEL INVESTOR AT HOTBIT"
