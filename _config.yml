@@ -71,3 +71,5 @@ navigation:
     url: /community
   - title: NFT
     url: /nft
+  - title: Pitch
+    url: /pitch
