@@ -44,6 +44,7 @@ defaults:
       layout: "default"
 
 webapp_link: "https://debondapp.web.app"
+site_link: "https://debond.org"
 mail: "info@debond.org"
 documentation: "https://github.com/Debond-Protocol/Docs/raw/main/Debond_Whitepaper_V2_WIP.pdf"
 linkedin: "https://www.linkedin.com/company/debond-protocol/"
@@ -64,10 +65,10 @@ sass:
 
 navigation:
   - title: Team
-    url: /team
+    url: https://debond.org/team
   - title: About
-    url: /about
+    url: https://debond.org/about
   - title: Community
-    url: /community
+    url: https://debond.org/community
   - title: NFT
-    url: /nft
+    url: https://debond.org/nft
