@@ -54,7 +54,7 @@ cm_discord: "http://discord.gg/TMdDHCY2aD"
 discord: "https://discord.gg/HUDSX4Agjq"
 minting_app: "https://debond.app"
 form: "https://docs.google.com/forms/d/e/1FAIpQLSchcnUpOCxmak43ryF2mFPI5OZlNO2GLmZAh-8_g_19nr-2Zg/viewform"
-
+whitelist: "https://docs.google.com/forms/d/e/1FAIpQLSeMvvEHarYD5qnCfNK7WoIrY4HpinKxY9QfJeH6H8GewtHSbA/viewform?usp=sf_link"
 
 jekyll_get_json:
   - data: mediumPosts
