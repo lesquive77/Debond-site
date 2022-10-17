@@ -43,7 +43,7 @@ defaults:
     values:
       layout: "default"
 
-webapp_link: "https://debondapp.web.app"
+webapp_link: "https://preprod-debond-app.web.app"
 mail: "info@debond.org"
 documentation: "https://github.com/Debond-Protocol/Docs/raw/main/Debond_Whitepaper_V2_WIP.pdf"
 linkedin: "https://www.linkedin.com/company/debond-protocol/"
