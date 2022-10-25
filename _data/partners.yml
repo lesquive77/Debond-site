@@ -4,10 +4,10 @@
   path: "assets/images/about/partners/hotdao.png"
   link: "https://www.hotbit.io/"
 -
-  name: "Spark Digital Capital"
-  description: "A research-focused crypto fund that invests in the future of blockchain and tech."
-  path: "assets/images/about/partners/spark.png"
-  link: "https://sparkdigitalcapital.com/"
+  name: "A55"
+  description: "The first Brazilian Fintech specialized in lending to companies in the new economy."
+  path: "assets/images/about/partners/a55.png"
+  link: "https://www.a55.tech"
 -
   name: "Collin Star Investment"
   description: "In early 2015, Ryan and other co-founders of the firm believed they could set a new benchmark for asset management fund performance through investment in blockchain technology."
@@ -34,10 +34,10 @@
   path: "assets/images/about/partners/cspdao.png"
   link: "https://cspdao.network/"
 -
-  name: "HYPE PARTNERS"
-  description: "Hype is the leading community management and marketing agency  for blockchain organisations."
-  path: "assets/images/about/partners/hype.png"
-  link: "https://www.hy.pe/"
+  name: "Equisafe"
+  description: "Structure, raise and deploy funds with Equisafe"
+  path: "assets/images/about/partners/equisafe.png"
+  link: "https://www.equisafe.io"
 -
   name: "PSL"
   description: "Université PSL includes all areas of knowledge and creation: Sciences, Humanities and Social Science, Engineering, the Arts."
